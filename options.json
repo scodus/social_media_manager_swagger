@@ -21,8 +21,8 @@
 	},
 	"servers": [
 		{
-			"url": "https://accounting.scodus.com/",
-			"description": "accounting software server"
+			"url": "https://social-media-manager.scoduscorp.com/",
+			"description": "social media manager"
 		}
 	]
 }

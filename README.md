@@ -1,2 +1,2 @@
 # accounting-swagger
-## URL : https://scodus.github.io/social-media-manager-swagger/
+## URL : https://scodus.github.io/social_media_manager_swagger/

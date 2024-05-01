@@ -1774,18 +1774,13 @@ paths:
       summary: store
       requestBody:
         content:
-          multipart/form-data:
+          application/json:
             schema:
               type: object
-              properties:
-                type:
-                  type: string
-                  example: facebook
-                access_token:
-                  type: string
-                  example: awdesfe
-                data:
-                  type: string
+              example:
+                type: instagram
+                access_token: dfafdaf00
+                data: ''
       security:
         - bearerAuth: []
       parameters:
@@ -1836,23 +1831,21 @@ paths:
           description: Successful response
           content:
             application/json: {}
-  /api/social-media/{id}/update-status:
+  /api/social-media/{id}:
     post:
       tags:
         - General > Social Media
-      summary: update status
+      summary: update
       requestBody:
         content:
-          multipart/form-data:
+          application/json:
             schema:
               type: object
-              properties:
-                _method:
-                  type: string
-                  example: PUT
-                status:
-                  type: string
-                  example: active
+              example:
+                _method: PUT
+                type: instagram
+                access_token: dfafdaf00
+                data: ''
       security:
         - bearerAuth: []
       parameters:
@@ -1866,45 +1859,12 @@ paths:
           schema:
             type: integer
           required: true
-          example: '6'
+          example: '1'
       responses:
         '200':
           description: Successful response
           content:
             application/json: {}
-  /api/social-media/update-or-create:
-    post:
-      tags:
-        - General > Social Media
-      summary: update or create
-      requestBody:
-        content:
-          multipart/form-data:
-            schema:
-              type: object
-              properties:
-                type:
-                  type: string
-                  example: instagram
-                access_token:
-                  type: string
-                  example: dfafdaf00
-                data:
-                  type: string
-      security:
-        - bearerAuth: []
-      parameters:
-        - name: Accept
-          in: header
-          schema:
-            type: string
-          example: application/json
-      responses:
-        '200':
-          description: Successful response
-          content:
-            application/json: {}
-  /api/social-media/{id}:
     delete:
       tags:
         - General > Social Media
@@ -1945,6 +1905,69 @@ paths:
             type: integer
           required: true
           example: '1'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /api/social-media/update-or-create:
+    post:
+      tags:
+        - General > Social Media
+      summary: update or create
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                type: instagram
+                access_token: dfafdaf00
+                data: ''
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: application/json
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /api/social-media/{id}/update-status:
+    post:
+      tags:
+        - General > Social Media
+      summary: update status
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                _method:
+                  type: string
+                  example: PUT
+                status:
+                  type: string
+                  example: active
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: application/json
+        - name: id
+          in: path
+          schema:
+            type: integer
+          required: true
+          example: '6'
       responses:
         '200':
           description: Successful response

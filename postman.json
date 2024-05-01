@@ -3103,24 +3103,13 @@
 									}
 								],
 								"body": {
-									"mode": "formdata",
-									"formdata": [
-										{
-											"key": "type",
-											"value": "facebook",
-											"type": "text"
-										},
-										{
-											"key": "access_token",
-											"value": "awdesfe",
-											"type": "text"
-										},
-										{
-											"key": "data",
-											"value": "",
-											"type": "text"
+									"mode": "raw",
+									"raw": "{\r\n    \"type\": \"instagram\",\r\n    \"access_token\": \"dfafdaf00\",\r\n    \"data\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
 										}
-									]
+									}
 								},
 								"url": {
 									"raw": "{{url}}/api/social-media",
@@ -3157,40 +3146,23 @@
 									}
 								],
 								"body": {
-									"mode": "formdata",
-									"formdata": [
-										{
-											"key": "_method",
-											"value": "patch",
-											"type": "text"
-										},
-										{
-											"key": "type",
-											"value": "facebook",
-											"type": "text"
-										},
-										{
-											"key": "access_token",
-											"value": "sdfsf",
-											"type": "text"
-										},
-										{
-											"key": "data",
-											"value": "",
-											"type": "text"
+									"mode": "raw",
+									"raw": "{\r\n    \"_method\":\"PUT\",\r\n    \"type\": \"instagram\",\r\n    \"access_token\": \"dfafdaf00\",\r\n    \"data\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
 										}
-									]
+									}
 								},
 								"url": {
-									"raw": "{{url}}/api/social-media/:id/update-status",
+									"raw": "{{url}}/api/social-media/:id",
 									"host": [
 										"{{url}}"
 									],
 									"path": [
 										"api",
 										"social-media",
-										":id",
-										"update-status"
+										":id"
 									],
 									"variable": [
 										{
@@ -3224,24 +3196,13 @@
 									}
 								],
 								"body": {
-									"mode": "formdata",
-									"formdata": [
-										{
-											"key": "type",
-											"value": "instagram",
-											"type": "text"
-										},
-										{
-											"key": "access_token",
-											"value": "dfafdaf00",
-											"type": "text"
-										},
-										{
-											"key": "data",
-											"value": "",
-											"type": "text"
+									"mode": "raw",
+									"raw": "{\r\n    \"type\": \"instagram\",\r\n    \"access_token\": \"dfafdaf00\",\r\n    \"data\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
 										}
-									]
+									}
 								},
 								"url": {
 									"raw": "{{url}}/api/social-media/update-or-create",

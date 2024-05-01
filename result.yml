@@ -1889,6 +1889,8 @@ paths:
                 access_token:
                   type: string
                   example: dfafdaf00
+                data:
+                  type: string
       security:
         - bearerAuth: []
       parameters:

@@ -2476,7 +2476,7 @@
 									"formdata": [
 										{
 											"key": "email",
-											"value": "bikashxsingh@gmail.com",
+											"value": "augxdeveloper@gmail.com",
 											"type": "text"
 										},
 										{
@@ -2789,22 +2789,22 @@
 									"formdata": [
 										{
 											"key": "first_name",
-											"value": "aa",
+											"value": "Aug",
 											"type": "text"
 										},
 										{
 											"key": "middle_name",
-											"value": "bb",
+											"value": "",
 											"type": "text"
 										},
 										{
 											"key": "last_name",
-											"value": "cc",
+											"value": "X",
 											"type": "text"
 										},
 										{
 											"key": "email",
-											"value": "ninave1911@eryod.com",
+											"value": "augxdeveloper@gmail.com",
 											"type": "text"
 										},
 										{
@@ -2820,7 +2820,7 @@
 										{
 											"key": "image",
 											"type": "file",
-											"src": "/home/bikash/Downloads/khalti-logo.png"
+											"src": []
 										}
 									]
 								},
@@ -2850,7 +2850,7 @@
 									"formdata": [
 										{
 											"key": "email",
-											"value": "xipope9775@agaseo.com",
+											"value": "augxdeveloper@gmail.com",
 											"type": "text"
 										}
 									]
@@ -2909,12 +2909,12 @@
 									"formdata": [
 										{
 											"key": "token",
-											"value": "296870",
+											"value": "495263",
 											"type": "text"
 										},
 										{
 											"key": "email",
-											"value": "ninave1911@eryod.com",
+											"value": "augxdeveloper@gmail.com",
 											"type": "text"
 										},
 										{
@@ -3079,6 +3079,400 @@
 					]
 				},
 				{
+					"name": "Social Media",
+					"item": [
+						{
+							"name": "store",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "type",
+											"value": "facebook",
+											"type": "text"
+										},
+										{
+											"key": "access_token",
+											"value": "awdesfe",
+											"type": "text"
+										},
+										{
+											"key": "data",
+											"value": "",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{url}}/api/social-media",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"social-media"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "_method",
+											"value": "patch",
+											"type": "text"
+										},
+										{
+											"key": "type",
+											"value": "facebook",
+											"type": "text"
+										},
+										{
+											"key": "access_token",
+											"value": "sdfsf",
+											"type": "text"
+										},
+										{
+											"key": "data",
+											"value": "",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{url}}/api/social-media/:id/update-status",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"social-media",
+										":id",
+										"update-status"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update or create",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "type",
+											"value": "instagram",
+											"type": "text"
+										},
+										{
+											"key": "access_token",
+											"value": "dfafdaf00",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{url}}/api/social-media/update-or-create",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"social-media",
+										"update-or-create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update status",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "_method",
+											"value": "PUT",
+											"type": "text"
+										},
+										{
+											"key": "status",
+											"value": "active",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{url}}/api/social-media/:id/update-status",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"social-media",
+										":id",
+										"update-status"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "6"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delete",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "{{url}}/api/social-media/:id",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"social-media",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": ""
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/social-media?paginate=&page=&limit=&search_keyword=&status=",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"social-media"
+									],
+									"query": [
+										{
+											"key": "paginate",
+											"value": ""
+										},
+										{
+											"key": "page",
+											"value": ""
+										},
+										{
+											"key": "limit",
+											"value": ""
+										},
+										{
+											"key": "search_keyword",
+											"value": ""
+										},
+										{
+											"key": "status",
+											"value": ""
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "show",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "{{url}}/api/social-media/:id",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"social-media",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
 					"name": "Post",
 					"item": [
 						{
@@ -3089,7 +3483,7 @@
 									"bearer": [
 										{
 											"key": "token",
-											"value": "{{token}}",
+											"value": "{{access_token}}",
 											"type": "string"
 										}
 									]
@@ -3161,7 +3555,7 @@
 									"bearer": [
 										{
 											"key": "token",
-											"value": "{{token}}",
+											"value": "{{access_token}}",
 											"type": "string"
 										}
 									]
@@ -3242,7 +3636,7 @@
 									"bearer": [
 										{
 											"key": "token",
-											"value": "{{token}}",
+											"value": "{{access_token}}",
 											"type": "string"
 										}
 									]
@@ -3299,7 +3693,7 @@
 									"bearer": [
 										{
 											"key": "token",
-											"value": "{{token}}",
+											"value": "{{access_token}}",
 											"type": "string"
 										}
 									]
@@ -3347,7 +3741,7 @@
 									"bearer": [
 										{
 											"key": "token",
-											"value": "{{token}}",
+											"value": "{{access_token}}",
 											"type": "string"
 										}
 									]
@@ -3419,7 +3813,7 @@
 									"bearer": [
 										{
 											"key": "token",
-											"value": "{{token}}",
+											"value": "{{access_token}}",
 											"type": "string"
 										}
 									]

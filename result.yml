@@ -39,6 +39,7 @@ tags:
   - name: General
   - name: General > Authentication
   - name: General > Authentication > social login
+  - name: General > Social Media
   - name: General > Post
 paths:
   /oauth/access_token:
@@ -1425,7 +1426,7 @@ paths:
               properties:
                 email:
                   type: string
-                  example: bikashxsingh@gmail.com
+                  example: augxdeveloper@gmail.com
                 password:
                   type: string
                   example: P@ssw0rd
@@ -1585,16 +1586,15 @@ paths:
               properties:
                 first_name:
                   type: string
-                  example: aa
+                  example: Aug
                 middle_name:
                   type: string
-                  example: bb
                 last_name:
                   type: string
-                  example: cc
+                  example: X
                 email:
                   type: string
-                  example: ninave1911@eryod.com
+                  example: augxdeveloper@gmail.com
                 password:
                   type: string
                   example: P@ssw0rd
@@ -1622,7 +1622,7 @@ paths:
               properties:
                 email:
                   type: string
-                  example: xipope9775@agaseo.com
+                  example: augxdeveloper@gmail.com
       security:
         - noauthAuth: []
       responses:
@@ -1664,10 +1664,10 @@ paths:
               properties:
                 token:
                   type: integer
-                  example: '296870'
+                  example: '495263'
                 email:
                   type: string
-                  example: ninave1911@eryod.com
+                  example: augxdeveloper@gmail.com
                 user_id:
                   type: integer
                   example: '22'
@@ -1762,6 +1762,187 @@ paths:
                 email:
                   type: string
                   example: bikashxsingh@gmail.com
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /api/social-media:
+    post:
+      tags:
+        - General > Social Media
+      summary: store
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                type:
+                  type: string
+                  example: facebook
+                access_token:
+                  type: string
+                  example: awdesfe
+                data:
+                  type: string
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: application/json
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+    get:
+      tags:
+        - General > Social Media
+      summary: list
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: application/json
+        - name: paginate
+          in: query
+          schema:
+            type: string
+        - name: page
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+        - name: search_keyword
+          in: query
+          schema:
+            type: string
+        - name: status
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /api/social-media/{id}/update-status:
+    post:
+      tags:
+        - General > Social Media
+      summary: update status
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                _method:
+                  type: string
+                  example: PUT
+                status:
+                  type: string
+                  example: active
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: application/json
+        - name: id
+          in: path
+          schema:
+            type: integer
+          required: true
+          example: '6'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /api/social-media/update-or-create:
+    post:
+      tags:
+        - General > Social Media
+      summary: update or create
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                type:
+                  type: string
+                  example: instagram
+                access_token:
+                  type: string
+                  example: dfafdaf00
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: application/json
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /api/social-media/{id}:
+    delete:
+      tags:
+        - General > Social Media
+      summary: delete
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: application/json
+        - name: id
+          in: path
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+    get:
+      tags:
+        - General > Social Media
+      summary: show
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: application/json
+        - name: id
+          in: path
+          schema:
+            type: integer
+          required: true
+          example: '1'
       responses:
         '200':
           description: Successful response

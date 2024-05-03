@@ -80,7 +80,8 @@
 						"header": [
 							{
 								"key": "Content-Type",
-								"value": "application/json"
+								"value": "application/json",
+								"uuid": "93e9cb33-6c70-4a2a-b36d-d2d7e784b31f"
 							}
 						],
 						"body": {
@@ -139,7 +140,8 @@
 						"header": [
 							{
 								"key": "Content-Type",
-								"value": "application/json"
+								"value": "application/json",
+								"uuid": "3aff325f-4ae0-4078-b09f-aa31ced45037"
 							}
 						],
 						"body": {
@@ -176,7 +178,8 @@
 						"header": [
 							{
 								"key": "Content-Type",
-								"value": "application/json"
+								"value": "application/json",
+								"uuid": "8331af7d-f4c9-46df-bfc1-bd2d404b2c74"
 							}
 						],
 						"body": {
@@ -223,7 +226,8 @@
 						"header": [
 							{
 								"key": "Content-Type",
-								"value": "application/json"
+								"value": "application/json",
+								"uuid": "fa008917-20ce-4115-985e-1b8313ae7b7a"
 							}
 						],
 						"body": {
@@ -458,7 +462,8 @@
 									"variable": [
 										{
 											"key": "refresh_token",
-											"value": "{{refresh_token}}"
+											"value": "{{refresh_token}}",
+											"uuid": "a463c621-a7df-4223-94f2-ceb8cedfb597"
 										}
 									]
 								}
@@ -494,7 +499,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "8a421408-4368-43b3-b9ca-e8191430f4f9"
 									}
 								],
 								"url": {
@@ -680,7 +686,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "2e67fd7d-3c46-4dd9-9802-cb339a86ae9d"
 									}
 								],
 								"body": {
@@ -1096,7 +1103,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1"
+											"value": "1",
+											"uuid": "420446c1-6f8b-429d-8a52-fcdef1747ee4"
 										}
 									]
 								}
@@ -1126,7 +1134,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "5bfa7a3f-0960-4457-a8da-e7436251ee55"
 									}
 								],
 								"body": {
@@ -1171,7 +1180,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "8c5965d4-6e8b-467e-a166-44d84b30613e"
 									}
 								],
 								"body": {
@@ -1203,7 +1213,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "6"
+											"value": "6",
+											"uuid": "05a8099c-4fe1-4a6d-8876-c4e4e194b637"
 										}
 									]
 								}
@@ -1228,7 +1239,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "09187cb0-f448-4664-940a-16cab179c856"
 									}
 								],
 								"body": {
@@ -1249,7 +1261,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "7"
+											"value": "7",
+											"uuid": "4a8e0947-3654-43a8-afa4-938567b3723d"
 										}
 									]
 								}
@@ -1334,7 +1347,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "3"
+											"value": "3",
+											"uuid": "6ec0c6ea-6a59-4ecd-8431-aa8d0aebc037"
 										}
 									]
 								}
@@ -1359,12 +1373,14 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "6563cf8c-12c2-423d-bf76-d7518e3fc637"
 									},
 									{
 										"key": "company-id",
 										"value": "1",
-										"type": "text"
+										"type": "text",
+										"uuid": "8da83bfb-911b-4de6-b35a-42b5de4624da"
 									}
 								],
 								"body": {
@@ -1391,7 +1407,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "3"
+											"value": "3",
+											"uuid": "519d55a1-361a-4cb9-8bcf-b6a86f5b5e2e"
 										}
 									]
 								}
@@ -1421,7 +1438,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "bd6f1ebb-3079-4606-accc-850bcd7d1f61"
 									}
 								],
 								"body": {
@@ -1519,7 +1537,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "6fbc7de3-78da-4e45-844d-bf6038334bc7"
 									}
 								],
 								"body": {
@@ -1602,7 +1621,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "4"
+											"value": "4",
+											"uuid": "3b6f01a8-77f5-4a07-b254-99eb65716c86"
 										}
 									]
 								}
@@ -1627,7 +1647,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "3dc9599a-307e-439d-a6a1-2a9262dbd7b4"
 									}
 								],
 								"body": {
@@ -1648,7 +1669,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "5"
+											"value": "5",
+											"uuid": "31f61b81-78be-406b-b0cf-e23a552dd0c8"
 										}
 									]
 								}
@@ -1751,7 +1773,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1"
+											"value": "1",
+											"uuid": "530aa4bc-aa21-422d-b7ba-ba1f115193e4"
 										}
 									]
 								}
@@ -1776,12 +1799,14 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "777e9e33-7b1f-4651-8a7f-cca9e6a79391"
 									},
 									{
 										"key": "company-id",
 										"value": "1",
-										"type": "text"
+										"type": "text",
+										"uuid": "4f81fbd9-03a5-4ef1-9887-ed87fb02a638"
 									}
 								],
 								"body": {
@@ -1808,7 +1833,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "4"
+											"value": "4",
+											"uuid": "b4682f01-aabb-41f3-92a3-aa82b5b386aa"
 										}
 									]
 								}
@@ -1833,12 +1859,14 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "152724d8-b84c-4cfb-8eb8-d06addea6fa0"
 									},
 									{
 										"key": "company-id",
 										"value": "1",
-										"type": "text"
+										"type": "text",
+										"uuid": "e058eed4-c1e7-4058-9b02-33423eed7fbe"
 									}
 								],
 								"body": {
@@ -1865,7 +1893,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "6"
+											"value": "6",
+											"uuid": "a3a6cc10-aa89-49f1-bfc6-5cc3db47759d"
 										}
 									]
 								}
@@ -1920,6 +1949,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
+										"uuid": "dc3dd547-651f-4c85-93ac-7d39a51101fe",
 										"disabled": true
 									}
 								],
@@ -1955,6 +1985,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
+										"uuid": "0f317268-eec7-46c7-a40d-1e2e3976dc72",
 										"disabled": true
 									}
 								],
@@ -2069,7 +2100,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "6065faf0-8d6c-488b-afe7-b4c0ad8620f2"
 									}
 								],
 								"body": {
@@ -2119,7 +2151,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "6346b595-8bfe-4860-8da4-3e1ef4ce0b82"
 									}
 								],
 								"body": {
@@ -2151,7 +2184,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "6"
+											"value": "6",
+											"uuid": "43bf53b3-f582-4196-9bcf-8547c8e71910"
 										}
 									]
 								}
@@ -2176,7 +2210,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "ad08f595-357f-4b50-81f4-8aad34a5a2cf"
 									}
 								],
 								"body": {
@@ -2209,7 +2244,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "6"
+											"value": "6",
+											"uuid": "adad942a-6219-4a21-8c8c-b4c33bbe32ce"
 										}
 									]
 								}
@@ -2234,7 +2270,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "655ae8b8-869e-40ce-bc9f-80eae51f1e7d"
 									}
 								],
 								"body": {
@@ -2255,7 +2292,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "7"
+											"value": "7",
+											"uuid": "c176aed0-0e35-4a3f-b063-92a0999f2379"
 										}
 									]
 								}
@@ -2283,7 +2321,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "6b60841f-a06f-4fd6-8198-0eb9e55f1138"
 									}
 								],
 								"body": {
@@ -2352,7 +2391,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "2a765dfc-62da-4d49-8f47-10278b0eda58"
 									}
 								],
 								"body": {
@@ -2373,7 +2413,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "6"
+											"value": "6",
+											"uuid": "8e2bd6e7-a31d-4022-bc38-3dadf5ab30d4"
 										}
 									]
 								}
@@ -2443,7 +2484,8 @@
 											"variable": [
 												{
 													"key": "provider",
-													"value": "google"
+													"value": "google",
+													"uuid": "c950c517-28da-4ee5-8256-6da36305af7a"
 												}
 											]
 										}
@@ -2538,7 +2580,8 @@
 									"variable": [
 										{
 											"key": "refresh_token",
-											"value": "{{refresh_token}}"
+											"value": "{{refresh_token}}",
+											"uuid": "468f5759-bc4c-4fe6-a822-7ce4cb38744d"
 										}
 									]
 								}
@@ -2577,7 +2620,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "e2955eda-97aa-4d7c-9b37-d69650738fb3"
 									}
 								],
 								"url": {
@@ -2759,7 +2803,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "61ddb005-d013-460b-b2c3-ffb88a67ba3f"
 									}
 								],
 								"body": {
@@ -3099,12 +3144,12 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"uuid": "db1113e5-0840-418c-a019-02d392160e11"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"type\": \"instagram\",\r\n    \"access_token\": \"dfafdaf00\",\r\n    \"data\": \"\"\r\n}",
+									"raw": "{\r\n    \"type\": \"instagram\",\r\n    \"access_token\": \"dfafdaf00\",\r\n    \"userID\":\"123\",\r\n    \"data\": \"\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -3142,12 +3187,12 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"uuid": "b4f6873c-378a-4c35-9b68-1648fe0823c2"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"_method\":\"PUT\",\r\n    \"type\": \"instagram\",\r\n    \"access_token\": \"dfafdaf00\",\r\n    \"data\": \"\"\r\n}",
+									"raw": "{\r\n    \"_method\":\"PUT\",\r\n    \"type\": \"instagram\",\r\n    \"access_token\": \"dfafdaf00\",\r\n    \"userID\":\"123\",\r\n    \"data\": \"\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -3167,7 +3212,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1"
+											"value": "1",
+											"uuid": "e9c01c8f-4015-4fd5-97d1-37e248ca2893"
 										}
 									]
 								}
@@ -3192,12 +3238,12 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"uuid": "5f7e4277-0c30-4704-809a-9c1e41a32573"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"type\": \"instagram\",\r\n    \"access_token\": \"dfafdaf00\",\r\n    \"data\": \"\"\r\n}",
+									"raw": "{\r\n    \"type\": \"instagram\",\r\n    \"access_token\": \"dfafdaf00\",\r\n    \"userID\":\"123\",\r\n    \"data\": \"\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -3236,7 +3282,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "72ec20b6-ec0d-40c1-af3a-908e925289d7"
 									}
 								],
 								"body": {
@@ -3268,7 +3315,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "6"
+											"value": "6",
+											"uuid": "b9ce474f-5d56-4522-92ad-494b4b62bb9d"
 										}
 									]
 								}
@@ -3293,7 +3341,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "b966f1f0-5031-4115-ac45-15ed35ef94dc"
 									}
 								],
 								"body": {
@@ -3313,7 +3362,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": ""
+											"value": "",
+											"uuid": "3e905ac1-7b3b-4de2-afd1-355440d3f73b"
 										}
 									]
 								}
@@ -3341,7 +3391,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "90703724-3bb8-43e5-bd73-e0b9609e1f48"
 									}
 								],
 								"body": {
@@ -3409,7 +3460,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "8a9e1c37-74fe-4ff9-8e08-2e7cad168fed"
 									}
 								],
 								"body": {
@@ -3429,7 +3481,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1"
+											"value": "2",
+											"uuid": "908eac78-3f07-44a7-90e0-5c078d29f7d4"
 										}
 									]
 								}
@@ -3459,7 +3512,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "40cb91a0-b6c5-4f23-a578-cdc9adb296f9"
 									}
 								],
 								"body": {
@@ -3478,25 +3532,25 @@
 										},
 										{
 											"key": "publish_now",
-											"value": "false",
+											"value": "",
 											"description": "true,false,1,0|required_if:is_draft,false,0",
 											"type": "text"
 										},
 										{
 											"key": "publish_date",
-											"value": "false",
+											"value": "",
 											"description": "datetime||required_if:publish_now,false,0",
 											"type": "text"
 										},
 										{
 											"key": "attachments[]",
 											"type": "file",
-											"src": "/home/bikash/Downloads/task 1edatt.png"
+											"src": "/C:/Users/August/Pictures/download.jpg"
 										},
 										{
 											"key": "attachments[]",
 											"type": "file",
-											"src": []
+											"src": "/C:/Users/August/Pictures/Lois.Family-Guy-900x638.png"
 										}
 									]
 								},
@@ -3531,7 +3585,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "c5a1633c-3e0a-44b1-8ceb-f37929f233f0"
 									}
 								],
 								"body": {
@@ -3587,7 +3642,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "6"
+											"value": "6",
+											"uuid": "b41f8ef7-b050-46df-be65-276dc4ee9664"
 										}
 									]
 								}
@@ -3612,7 +3668,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "3f5049fd-ac60-4ec9-8b21-bb0966b0bbfb"
 									}
 								],
 								"body": {
@@ -3644,7 +3701,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "6"
+											"value": "6",
+											"uuid": "654e8002-750b-4d49-9652-8a3322fa060f"
 										}
 									]
 								}
@@ -3669,7 +3727,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "b6ef6d47-5f0b-4268-ab8b-dca17253a637"
 									}
 								],
 								"body": {
@@ -3689,7 +3748,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": ""
+											"value": "",
+											"uuid": "50365239-dfe4-45f5-b4b7-ab223c498ba0"
 										}
 									]
 								}
@@ -3717,7 +3777,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"uuid": "e7da219a-7142-4d80-b7bc-d3889039ac9d"
 									}
 								],
 								"body": {
@@ -3730,7 +3790,7 @@
 									}
 								},
 								"url": {
-									"raw": "{{url}}/api/post?paginate=&page=&limit=&search_keyword=&status=&is_draft",
+									"raw": "{{url}}/api/post?paginate=&page=&limit=&search_keyword=&status=&is_draft=&social_media_id=",
 									"host": [
 										"{{url}}"
 									],
@@ -3761,7 +3821,11 @@
 										},
 										{
 											"key": "is_draft",
-											"value": null
+											"value": ""
+										},
+										{
+											"key": "social_media_id",
+											"value": ""
 										}
 									]
 								}
@@ -3789,7 +3853,8 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text"
+										"type": "text",
+										"uuid": "2a8c4cc8-2d47-43a9-a47a-80d13b9f6d40"
 									}
 								],
 								"body": {
@@ -3809,7 +3874,8 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "6"
+											"value": "1",
+											"uuid": "0c798750-9384-44b5-a265-085d88701ef6"
 										}
 									]
 								}
@@ -3862,11 +3928,13 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1"
+											"value": "1",
+											"uuid": "1d719a83-7576-46b7-b998-ff8dbdce8d7f"
 										},
 										{
 											"key": "file_id",
-											"value": "73"
+											"value": "73",
+											"uuid": "afcd0606-4910-463a-bcd3-e1e3678dbe13"
 										}
 									]
 								}
@@ -3903,11 +3971,13 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1"
+											"value": "1",
+											"uuid": "f7fe9b08-de78-47ba-9641-999bd2bdf291"
 										},
 										{
 											"key": "file_id",
-											"value": "74"
+											"value": "74",
+											"uuid": "ef8dddf9-a389-4e1b-9300-583208c1de78"
 										}
 									]
 								}
@@ -3945,11 +4015,13 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1"
+											"value": "1",
+											"uuid": "58b801f3-dd60-4e42-810c-0693369de963"
 										},
 										{
 											"key": "file_id",
-											"value": "76"
+											"value": "76",
+											"uuid": "9e378fa0-357f-4a00-871e-9fccba502406"
 										}
 									]
 								}

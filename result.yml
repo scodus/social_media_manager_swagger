@@ -1780,6 +1780,7 @@ paths:
               example:
                 type: instagram
                 access_token: dfafdaf00
+                userID: '123'
                 data: ''
       security:
         - bearerAuth: []
@@ -1845,6 +1846,7 @@ paths:
                 _method: PUT
                 type: instagram
                 access_token: dfafdaf00
+                userID: '123'
                 data: ''
       security:
         - bearerAuth: []
@@ -1904,7 +1906,7 @@ paths:
           schema:
             type: integer
           required: true
-          example: '1'
+          example: '2'
       responses:
         '200':
           description: Successful response
@@ -1923,6 +1925,7 @@ paths:
               example:
                 type: instagram
                 access_token: dfafdaf00
+                userID: '123'
                 data: ''
       security:
         - bearerAuth: []
@@ -1992,13 +1995,11 @@ paths:
                   description: true,false,1,0
                   example: 'true'
                 publish_now:
-                  type: boolean
+                  type: string
                   description: true,false,1,0|required_if:is_draft,false,0
-                  example: 'false'
                 publish_date:
-                  type: boolean
+                  type: string
                   description: datetime||required_if:publish_now,false,0
-                  example: 'false'
                 attachments[]:
                   type: string
                   format: binary
@@ -2048,6 +2049,10 @@ paths:
           schema:
             type: string
         - name: is_draft
+          in: query
+          schema:
+            type: string
+        - name: social_media_id
           in: query
           schema:
             type: string
@@ -2143,7 +2148,7 @@ paths:
           schema:
             type: integer
           required: true
-          example: '6'
+          example: '1'
       responses:
         '200':
           description: Successful response

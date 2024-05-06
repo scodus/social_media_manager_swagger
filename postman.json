@@ -81,7 +81,7 @@
 							{
 								"key": "Content-Type",
 								"value": "application/json",
-								"uuid": "93e9cb33-6c70-4a2a-b36d-d2d7e784b31f"
+								"uuid": "fa483f98-232d-4885-8cd5-bfe3e8d46863"
 							}
 						],
 						"body": {
@@ -141,7 +141,7 @@
 							{
 								"key": "Content-Type",
 								"value": "application/json",
-								"uuid": "3aff325f-4ae0-4078-b09f-aa31ced45037"
+								"uuid": "d31ef675-1df2-4b37-a174-c9eb207e20cb"
 							}
 						],
 						"body": {
@@ -179,7 +179,7 @@
 							{
 								"key": "Content-Type",
 								"value": "application/json",
-								"uuid": "8331af7d-f4c9-46df-bfc1-bd2d404b2c74"
+								"uuid": "2bd623ad-c74a-4556-b04b-709d864a5f94"
 							}
 						],
 						"body": {
@@ -227,7 +227,7 @@
 							{
 								"key": "Content-Type",
 								"value": "application/json",
-								"uuid": "fa008917-20ce-4115-985e-1b8313ae7b7a"
+								"uuid": "6d436487-2579-4b25-8399-4a00502f93bb"
 							}
 						],
 						"body": {
@@ -463,7 +463,7 @@
 										{
 											"key": "refresh_token",
 											"value": "{{refresh_token}}",
-											"uuid": "a463c621-a7df-4223-94f2-ceb8cedfb597"
+											"uuid": "2bb6e620-0cf2-48e3-9cbe-4acfbc7dcfca"
 										}
 									]
 								}
@@ -500,7 +500,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "8a421408-4368-43b3-b9ca-e8191430f4f9"
+										"uuid": "8ac39df5-ad4d-47e1-b0b0-f252d747075e"
 									}
 								],
 								"url": {
@@ -687,7 +687,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "2e67fd7d-3c46-4dd9-9802-cb339a86ae9d"
+										"uuid": "91dc34c1-6831-4bf8-8e16-647274757b7a"
 									}
 								],
 								"body": {
@@ -1104,7 +1104,7 @@
 										{
 											"key": "id",
 											"value": "1",
-											"uuid": "420446c1-6f8b-429d-8a52-fcdef1747ee4"
+											"uuid": "6f6419db-ca73-41ea-ab6c-436d059bf87e"
 										}
 									]
 								}
@@ -1135,7 +1135,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "5bfa7a3f-0960-4457-a8da-e7436251ee55"
+										"uuid": "9eb2f821-6dbc-4329-9ad3-a2dbb4774921"
 									}
 								],
 								"body": {
@@ -1181,7 +1181,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "8c5965d4-6e8b-467e-a166-44d84b30613e"
+										"uuid": "e4cac258-f6e1-46ef-9d75-4f2c1670d9ac"
 									}
 								],
 								"body": {
@@ -1214,7 +1214,7 @@
 										{
 											"key": "id",
 											"value": "6",
-											"uuid": "05a8099c-4fe1-4a6d-8876-c4e4e194b637"
+											"uuid": "1b3471f3-49be-4a92-8605-4b71262fb999"
 										}
 									]
 								}
@@ -1240,7 +1240,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "09187cb0-f448-4664-940a-16cab179c856"
+										"uuid": "da93733e-877d-48bf-a288-d88a71c7f770"
 									}
 								],
 								"body": {
@@ -1262,7 +1262,7 @@
 										{
 											"key": "id",
 											"value": "7",
-											"uuid": "4a8e0947-3654-43a8-afa4-938567b3723d"
+											"uuid": "7f0a0dea-59a1-4cd5-a6db-146ea53aef5e"
 										}
 									]
 								}
@@ -1348,7 +1348,7 @@
 										{
 											"key": "id",
 											"value": "3",
-											"uuid": "6ec0c6ea-6a59-4ecd-8431-aa8d0aebc037"
+											"uuid": "fd06ef6a-9d45-401d-9b28-205f56e8660b"
 										}
 									]
 								}
@@ -1374,13 +1374,13 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "6563cf8c-12c2-423d-bf76-d7518e3fc637"
+										"uuid": "121e568c-bacb-4680-aab7-d28a879def89"
 									},
 									{
 										"key": "company-id",
 										"value": "1",
 										"type": "text",
-										"uuid": "8da83bfb-911b-4de6-b35a-42b5de4624da"
+										"uuid": "d85a4417-5408-4658-8042-b6e1739856bf"
 									}
 								],
 								"body": {
@@ -1408,7 +1408,7 @@
 										{
 											"key": "id",
 											"value": "3",
-											"uuid": "519d55a1-361a-4cb9-8bcf-b6a86f5b5e2e"
+											"uuid": "f83e9362-b405-45bf-a629-e26126a589d3"
 										}
 									]
 								}
@@ -1439,7 +1439,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "bd6f1ebb-3079-4606-accc-850bcd7d1f61"
+										"uuid": "9e924bcc-d1ff-46ed-aab0-d300ddad6782"
 									}
 								],
 								"body": {
@@ -1538,7 +1538,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "6fbc7de3-78da-4e45-844d-bf6038334bc7"
+										"uuid": "9f04ad3a-ea25-41d0-8bd3-829e4eeaa4fb"
 									}
 								],
 								"body": {
@@ -1622,7 +1622,7 @@
 										{
 											"key": "id",
 											"value": "4",
-											"uuid": "3b6f01a8-77f5-4a07-b254-99eb65716c86"
+											"uuid": "209a8b65-ba0e-4eb8-8ad8-7f91641ad92a"
 										}
 									]
 								}
@@ -1648,7 +1648,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "3dc9599a-307e-439d-a6a1-2a9262dbd7b4"
+										"uuid": "d687f4e5-78f9-4a69-9cd1-2e96441efb9d"
 									}
 								],
 								"body": {
@@ -1670,7 +1670,7 @@
 										{
 											"key": "id",
 											"value": "5",
-											"uuid": "31f61b81-78be-406b-b0cf-e23a552dd0c8"
+											"uuid": "228ffd01-8304-4e54-8c5b-c7914eb27431"
 										}
 									]
 								}
@@ -1774,7 +1774,7 @@
 										{
 											"key": "id",
 											"value": "1",
-											"uuid": "530aa4bc-aa21-422d-b7ba-ba1f115193e4"
+											"uuid": "4ce12e8b-c928-49ca-b4a4-40b589d2fa34"
 										}
 									]
 								}
@@ -1800,13 +1800,13 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "777e9e33-7b1f-4651-8a7f-cca9e6a79391"
+										"uuid": "3f14c71e-ffd4-4b7f-b2ae-734ba567b5b6"
 									},
 									{
 										"key": "company-id",
 										"value": "1",
 										"type": "text",
-										"uuid": "4f81fbd9-03a5-4ef1-9887-ed87fb02a638"
+										"uuid": "6edb3db4-b655-4b00-aa00-4679345146e0"
 									}
 								],
 								"body": {
@@ -1834,7 +1834,7 @@
 										{
 											"key": "id",
 											"value": "4",
-											"uuid": "b4682f01-aabb-41f3-92a3-aa82b5b386aa"
+											"uuid": "81d4628a-6152-473f-85e6-386ae298065c"
 										}
 									]
 								}
@@ -1860,13 +1860,13 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "152724d8-b84c-4cfb-8eb8-d06addea6fa0"
+										"uuid": "39ee61a6-296c-47be-a514-43a3dd09d7bc"
 									},
 									{
 										"key": "company-id",
 										"value": "1",
 										"type": "text",
-										"uuid": "e058eed4-c1e7-4058-9b02-33423eed7fbe"
+										"uuid": "83dac022-2411-47b0-b34e-56eaeb9d17f4"
 									}
 								],
 								"body": {
@@ -1894,7 +1894,7 @@
 										{
 											"key": "id",
 											"value": "6",
-											"uuid": "a3a6cc10-aa89-49f1-bfc6-5cc3db47759d"
+											"uuid": "47b209b7-7485-436f-ae44-951853fe1645"
 										}
 									]
 								}
@@ -1949,7 +1949,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "dc3dd547-651f-4c85-93ac-7d39a51101fe",
+										"uuid": "b5bb1668-ed51-48ff-817c-cd28477d3f2b",
 										"disabled": true
 									}
 								],
@@ -1985,7 +1985,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "0f317268-eec7-46c7-a40d-1e2e3976dc72",
+										"uuid": "396c119d-27bb-4890-ae4a-ea15b11ce801",
 										"disabled": true
 									}
 								],
@@ -2101,7 +2101,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "6065faf0-8d6c-488b-afe7-b4c0ad8620f2"
+										"uuid": "4e602cec-346b-4be5-a356-d63a4231b004"
 									}
 								],
 								"body": {
@@ -2152,7 +2152,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "6346b595-8bfe-4860-8da4-3e1ef4ce0b82"
+										"uuid": "7dc896af-87ad-43ba-9ea7-4b34eeccc972"
 									}
 								],
 								"body": {
@@ -2185,7 +2185,7 @@
 										{
 											"key": "id",
 											"value": "6",
-											"uuid": "43bf53b3-f582-4196-9bcf-8547c8e71910"
+											"uuid": "256b6197-a27a-42c2-9d4e-c0aa4da73426"
 										}
 									]
 								}
@@ -2211,7 +2211,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "ad08f595-357f-4b50-81f4-8aad34a5a2cf"
+										"uuid": "17a415df-3bb7-4acb-9d47-d28afccd5d20"
 									}
 								],
 								"body": {
@@ -2245,7 +2245,7 @@
 										{
 											"key": "id",
 											"value": "6",
-											"uuid": "adad942a-6219-4a21-8c8c-b4c33bbe32ce"
+											"uuid": "1d263739-3cef-46a0-98a9-c42c7a37d62e"
 										}
 									]
 								}
@@ -2271,7 +2271,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "655ae8b8-869e-40ce-bc9f-80eae51f1e7d"
+										"uuid": "f8955a10-7445-4385-ae20-eaf2d0d1fe57"
 									}
 								],
 								"body": {
@@ -2293,7 +2293,7 @@
 										{
 											"key": "id",
 											"value": "7",
-											"uuid": "c176aed0-0e35-4a3f-b063-92a0999f2379"
+											"uuid": "9eb41e65-daa2-4aa2-be71-32a1ad8e0d69"
 										}
 									]
 								}
@@ -2322,7 +2322,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "6b60841f-a06f-4fd6-8198-0eb9e55f1138"
+										"uuid": "c3dfb5e4-5e3c-48f1-9a39-1e5f2cdbc5b5"
 									}
 								],
 								"body": {
@@ -2392,7 +2392,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "2a765dfc-62da-4d49-8f47-10278b0eda58"
+										"uuid": "fefa45e9-edb5-4e24-9a7e-28e256ce92f8"
 									}
 								],
 								"body": {
@@ -2414,7 +2414,7 @@
 										{
 											"key": "id",
 											"value": "6",
-											"uuid": "8e2bd6e7-a31d-4022-bc38-3dadf5ab30d4"
+											"uuid": "13ef40e4-3670-4ab9-9c4d-a1c0502c8284"
 										}
 									]
 								}
@@ -2477,7 +2477,7 @@
 											"query": [
 												{
 													"key": "token",
-													"value": "ya29.a0AfB_byB43ueGGGkUA2qKbWMagbPzUgBbGk1hEQH0oH5Nq3XLVlOg02bf-1u_jYpca9OVJYqlJq5LfvYl0CaEe-dAK6vMmjEKTzJj5aE2mfwVA9MKt4X0aDDOBXHu34y7FuXsnp_dup2_FURod6Yp8Pma_U-AzH0gW94SaCgYKATMSARISFQHGX2MiiZoFL1yKXHx4Pin8iajn_Q0171",
+													"value": "ya29.a0AXooCguvqn8mHyvr-aholmSQfddoBDkGVNiqvWKVw1-vajR95JeMkNjb1Y72pqXMxjU644CB8XWWbMFvErPzzhZaNfdpOeQ49QYVY-IEQQYz_BbwQrTIBeSgqsQnhr1RwlIyy1yaN1ea983GzU35UYz17uiEgYC8QRRKaCgYKAbYSARESFQHGX2MiQV1rgjrA8U-QNCHZ65xJ0w0171",
 													"disabled": true
 												}
 											],
@@ -2485,7 +2485,7 @@
 												{
 													"key": "provider",
 													"value": "google",
-													"uuid": "c950c517-28da-4ee5-8256-6da36305af7a"
+													"uuid": "13e2fa5c-6735-4686-ab89-ca5343e2f528"
 												}
 											]
 										}
@@ -2581,7 +2581,7 @@
 										{
 											"key": "refresh_token",
 											"value": "{{refresh_token}}",
-											"uuid": "468f5759-bc4c-4fe6-a822-7ce4cb38744d"
+											"uuid": "f41c874d-2394-4995-85f7-fd92491d75ba"
 										}
 									]
 								}
@@ -2621,7 +2621,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "e2955eda-97aa-4d7c-9b37-d69650738fb3"
+										"uuid": "eff7bd52-7313-4ca4-89ed-6941c39a4559"
 									}
 								],
 								"url": {
@@ -2804,7 +2804,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "61ddb005-d013-460b-b2c3-ffb88a67ba3f"
+										"uuid": "0ce52bbd-77d5-40f2-abfe-360dccfc76db"
 									}
 								],
 								"body": {
@@ -2954,7 +2954,7 @@
 									"formdata": [
 										{
 											"key": "token",
-											"value": "495263",
+											"value": "398786",
 											"type": "text"
 										},
 										{
@@ -3144,7 +3144,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"uuid": "db1113e5-0840-418c-a019-02d392160e11"
+										"uuid": "bbbfb9de-b712-438c-8253-833ed260cd34"
 									}
 								],
 								"body": {
@@ -3187,7 +3187,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"uuid": "b4f6873c-378a-4c35-9b68-1648fe0823c2"
+										"uuid": "ef4ee9e8-57eb-4c4d-b74c-864c46e21f3b"
 									}
 								],
 								"body": {
@@ -3213,7 +3213,7 @@
 										{
 											"key": "id",
 											"value": "1",
-											"uuid": "e9c01c8f-4015-4fd5-97d1-37e248ca2893"
+											"uuid": "2928e805-613b-4d3a-a411-9458ad91b20a"
 										}
 									]
 								}
@@ -3238,12 +3238,12 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"uuid": "5f7e4277-0c30-4704-809a-9c1e41a32573"
+										"uuid": "c996e510-6f56-46c2-ac1c-0104ad96254f"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"type\": \"instagram\",\r\n    \"access_token\": \"dfafdaf00\",\r\n    \"userID\":\"123\",\r\n    \"data\": \"\"\r\n}",
+									"raw": "{\r\n    \"type\": \"facebook\",\r\n    \"access_token\": \"EAANuNuPz88EBO1MzSjbUDKbZBQcISiLZBl6ntd8ZB7FIfgoYYHRZA5kgzI1ZCMZCM5DDSzi5NOReIkFsSuD2EBlfwtkwgboX4NNRE30FDW0ZCHOdtNFEPn04cIMbd8OpwHlAt6ol58rF9ejCGZBxgcq36FqZAV8UZCRKXSvTTFijvZBErEcS5LCaMOpNjre10ZAhDyviw8vHbcNIctWXks38ygZDZD\",\r\n    \"userID\":\"2600831653425364\",\r\n    \"data\":  {\r\n        \"userID\": \"2600831653425364\",\r\n        \"expiresIn\": 6276,\r\n        \"accessToken\": \"EAANuNuPz88EBO1MzSjbUDKbZBQcISiLZBl6ntd8ZB7FIfgoYYHRZA5kgzI1ZCMZCM5DDSzi5NOReIkFsSuD2EBlfwtkwgboX4NNRE30FDW0ZCHOdtNFEPn04cIMbd8OpwHlAt6ol58rF9ejCGZBxgcq36FqZAV8UZCRKXSvTTFijvZBErEcS5LCaMOpNjre10ZAhDyviw8vHbcNIctWXks38ygZDZD\",\r\n        \"signedRequest\": \"tyCf8yg9VhxXA9iROXyInC2R92ckkAbW-dBJJy0iSbQ.eyJ1c2VyX2lkIjoiMjYwMDgzMTY1MzQyNTM2NCIsImNvZGUiOiJBUUJ1VDk0NUpuQWRPNTR4Nmp6bDV4S085amp0c19kRkdDUHNCa0xpU2gzQmM0NTJPZnJKblVGNUp6TkxVMUlRQ3hyTGNMdmJ1VEF4ZUpVWkRhanFkX29KaHRJakRwVFdFbFlUMEVfUlhCX1d6VEJKRXg2dmljSDRYaU95NzJHQm5HTDZFS01FWXpGRmZwX2VmYkZfbGhnS3VVWlVuT3JMTWdiVHl0MkMxb29aS1dBd0YybVRYcExPeEpVTlY5WUZRb1Bja1N4bUdIVEx0LVpZZjhmTlczLVZFNTdaWlVkNnQ0UEVFY1RyZnZFeVlsNmE5VkN5TUU1MlA5NGNIdHNDTUJ0alM3NjJPQlBrN1dsOGZJMm1fT240MG5McjZsSmVPanlDR0Q1OEM5dzMyRHdXOUI4eVBxWUdpWEhZUDVPWWZ3ZzRieVNibEtQekpBNE9IUlZJaE1YTXhZci0xQzY0WEpWRnh6R2VUYzh5OGFqazFmRjV4NWdqMFllUjREX3BUR2ciLCJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImlzc3VlZF9hdCI6MTcxNDcxNjkyNH0\",\r\n        \"graphDomain\": \"facebook\",\r\n        \"grantedScopes\": \"pages_show_list,instagram_basic,instagram_content_publish,pages_read_engagement,pages_manage_posts\",\r\n        \"data_access_expiration_time\": 1722492924,\r\n        \"id\": \"2600831653425364\",\r\n        \"first_name\": \"Saurav\",\r\n        \"last_name\": \"Ghimire\",\r\n        \"name\": \"Saurav Ghimire\",\r\n        \"name_format\": \"{first} {last}\",\r\n        \"picture\": {\r\n            \"data\": {\r\n                \"height\": 50,\r\n                \"is_silhouette\": false,\r\n                \"url\": \"https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=2600831653425364&height=50&width=50&ext=1717308925&hash=Abb7G-NHcapOzbBhOwo95LyL\",\r\n                \"width\": 50\r\n            }\r\n        },\r\n        \"short_name\": \"Saurav\"\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -3283,7 +3283,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "72ec20b6-ec0d-40c1-af3a-908e925289d7"
+										"uuid": "902cedd4-5699-4204-bd90-5e2c1c8a35cf"
 									}
 								],
 								"body": {
@@ -3316,7 +3316,7 @@
 										{
 											"key": "id",
 											"value": "6",
-											"uuid": "b9ce474f-5d56-4522-92ad-494b4b62bb9d"
+											"uuid": "91ef84d6-c0ff-4534-abfb-0058566fc89a"
 										}
 									]
 								}
@@ -3342,7 +3342,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "b966f1f0-5031-4115-ac45-15ed35ef94dc"
+										"uuid": "7a11e44d-5786-423d-9a41-4ac7eda266c8"
 									}
 								],
 								"body": {
@@ -3363,7 +3363,7 @@
 										{
 											"key": "id",
 											"value": "",
-											"uuid": "3e905ac1-7b3b-4de2-afd1-355440d3f73b"
+											"uuid": "47f28dd8-7653-40a3-b8d3-52f9d6ff111c"
 										}
 									]
 								}
@@ -3392,7 +3392,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "90703724-3bb8-43e5-bd73-e0b9609e1f48"
+										"uuid": "bc6c1e39-479a-4da7-ae8e-706c06afd142"
 									}
 								],
 								"body": {
@@ -3461,7 +3461,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "8a9e1c37-74fe-4ff9-8e08-2e7cad168fed"
+										"uuid": "88c17245-5c4a-4c8f-a972-e3d76859009d"
 									}
 								],
 								"body": {
@@ -3482,7 +3482,7 @@
 										{
 											"key": "id",
 											"value": "2",
-											"uuid": "908eac78-3f07-44a7-90e0-5c078d29f7d4"
+											"uuid": "fe6a2def-9fd1-41c6-9b1d-275ec0972723"
 										}
 									]
 								}
@@ -3512,7 +3512,6 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
 										"uuid": "40cb91a0-b6c5-4f23-a578-cdc9adb296f9"
 									}
 								],
@@ -3521,18 +3520,18 @@
 									"formdata": [
 										{
 											"key": "title",
-											"value": "post 1",
+											"value": "post 100000",
 											"type": "text"
 										},
 										{
 											"key": "is_draft",
-											"value": "true",
+											"value": "false",
 											"description": "true,false,1,0",
 											"type": "text"
 										},
 										{
 											"key": "publish_now",
-											"value": "",
+											"value": "true",
 											"description": "true,false,1,0|required_if:is_draft,false,0",
 											"type": "text"
 										},
@@ -3550,7 +3549,22 @@
 										{
 											"key": "attachments[]",
 											"type": "file",
-											"src": "/C:/Users/August/Pictures/Lois.Family-Guy-900x638.png"
+											"src": "/C:/Users/August/Pictures/test-images/123.png"
+										},
+										{
+											"key": "social_media_array[2][]",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "social_media_array[1][]",
+											"value": "3",
+											"type": "text"
+										},
+										{
+											"key": "social_media_array[1][]",
+											"value": "4",
+											"type": "text"
 										}
 									]
 								},
@@ -3586,7 +3600,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "c5a1633c-3e0a-44b1-8ceb-f37929f233f0"
+										"uuid": "69b16e60-9b4a-4c56-9498-d0fc9e93eb58"
 									}
 								],
 								"body": {
@@ -3643,7 +3657,7 @@
 										{
 											"key": "id",
 											"value": "6",
-											"uuid": "b41f8ef7-b050-46df-be65-276dc4ee9664"
+											"uuid": "eada3b5d-e1ee-434f-a633-06f4d38f0b0d"
 										}
 									]
 								}
@@ -3669,7 +3683,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "3f5049fd-ac60-4ec9-8b21-bb0966b0bbfb"
+										"uuid": "101e0eba-8463-495b-b484-50d6e7768277"
 									}
 								],
 								"body": {
@@ -3702,7 +3716,7 @@
 										{
 											"key": "id",
 											"value": "6",
-											"uuid": "654e8002-750b-4d49-9652-8a3322fa060f"
+											"uuid": "2b857b0c-f1fd-41d3-a8b7-fc5dd08bb6ee"
 										}
 									]
 								}
@@ -3728,7 +3742,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "b6ef6d47-5f0b-4268-ab8b-dca17253a637"
+										"uuid": "04b61349-2fef-475e-81ac-77354e971fb9"
 									}
 								],
 								"body": {
@@ -3749,7 +3763,7 @@
 										{
 											"key": "id",
 											"value": "",
-											"uuid": "50365239-dfe4-45f5-b4b7-ab223c498ba0"
+											"uuid": "0b4ed788-d48d-42bc-9cbc-5edc8fbacad1"
 										}
 									]
 								}
@@ -3777,7 +3791,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"uuid": "e7da219a-7142-4d80-b7bc-d3889039ac9d"
+										"uuid": "2dcff909-d895-41b7-b68f-c6fad395c4c1"
 									}
 								],
 								"body": {
@@ -3854,7 +3868,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "2a8c4cc8-2d47-43a9-a47a-80d13b9f6d40"
+										"uuid": "f0553e99-24c5-4743-ac24-dcd515ba338c"
 									}
 								],
 								"body": {
@@ -3875,7 +3889,7 @@
 										{
 											"key": "id",
 											"value": "1",
-											"uuid": "0c798750-9384-44b5-a265-085d88701ef6"
+											"uuid": "f26332b2-a9ac-47f0-9054-807a362b615d"
 										}
 									]
 								}
@@ -3929,12 +3943,12 @@
 										{
 											"key": "id",
 											"value": "1",
-											"uuid": "1d719a83-7576-46b7-b998-ff8dbdce8d7f"
+											"uuid": "90c544b7-89b2-4435-8729-3e70afbf3ca8"
 										},
 										{
 											"key": "file_id",
 											"value": "73",
-											"uuid": "afcd0606-4910-463a-bcd3-e1e3678dbe13"
+											"uuid": "e7d92bd8-f8ad-4158-b979-f1e16a3f6bf3"
 										}
 									]
 								}
@@ -3972,12 +3986,12 @@
 										{
 											"key": "id",
 											"value": "1",
-											"uuid": "f7fe9b08-de78-47ba-9641-999bd2bdf291"
+											"uuid": "9421d2da-104c-4af3-9a43-129f4563c191"
 										},
 										{
 											"key": "file_id",
 											"value": "74",
-											"uuid": "ef8dddf9-a389-4e1b-9300-583208c1de78"
+											"uuid": "cb7e0041-ace7-4753-ba28-277b17e1e5ed"
 										}
 									]
 								}
@@ -4016,12 +4030,332 @@
 										{
 											"key": "id",
 											"value": "1",
-											"uuid": "58b801f3-dd60-4e42-810c-0693369de963"
+											"uuid": "8c7c0df2-d096-4ce2-87d1-e2d70c70e6e6"
 										},
 										{
 											"key": "file_id",
 											"value": "76",
-											"uuid": "9e378fa0-357f-4a00-871e-9fccba502406"
+											"uuid": "885c4aaf-105c-4149-ad7f-b0c99668d680"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Note",
+					"item": [
+						{
+							"name": "store",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"uuid": "a248bcce-379e-441e-87e0-fa16ec916f33"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\": \"instagram\",\r\n    \"status\": \"active\",\r\n    \"note_date\":\"1985-09-25 17:45:30.005\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/note",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"note"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"uuid": "c5aa1d80-a957-41ec-b9d4-66c263e10ee2"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"_method\": \"PUT\",\r\n    \"title\": \"instagram\",\r\n    \"status\": \"active\",\r\n    \"note_date\": \"1985-09-25T17:45:30.005\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/note/:id",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"note",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1",
+											"uuid": "8c4bc494-5cc6-4c9d-820d-748f5d8f5071"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update status",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"uuid": "3f980f06-3160-4f7d-a995-c55cc03bf998"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "_method",
+											"value": "PUT",
+											"type": "text"
+										},
+										{
+											"key": "status",
+											"value": "active",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{url}}/api/note/:id/update-status",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"note",
+										":id",
+										"update-status"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1",
+											"uuid": "a5de2fba-bd02-4b0a-bd14-3efa4283f0b1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delete",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"uuid": "1fd0e9f6-5c00-4b8d-ab15-72090f6f12f1"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "{{url}}/api/note/:id",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"note",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1",
+											"uuid": "bb5b3905-cbe6-4fbd-acdd-6a72905fa9a8"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"uuid": "f1772f86-9245-4a9d-ad2e-2452750d4a90"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/note?paginate=&page=&limit=&search_keyword=&status=",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"note"
+									],
+									"query": [
+										{
+											"key": "paginate",
+											"value": ""
+										},
+										{
+											"key": "page",
+											"value": ""
+										},
+										{
+											"key": "limit",
+											"value": ""
+										},
+										{
+											"key": "search_keyword",
+											"value": ""
+										},
+										{
+											"key": "status",
+											"value": ""
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "show",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"uuid": "6142f354-44bf-40bf-95a9-7fd60e466df8"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "{{url}}/api/note/:id",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"note",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1",
+											"uuid": "77fe2a7f-9c0a-4ef8-9c3f-5880c9f1240f"
 										}
 									]
 								}

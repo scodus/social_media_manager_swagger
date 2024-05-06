@@ -41,6 +41,7 @@ tags:
   - name: General > Authentication > social login
   - name: General > Social Media
   - name: General > Post
+  - name: General > Note
 paths:
   /oauth/access_token:
     post:
@@ -1664,7 +1665,7 @@ paths:
               properties:
                 token:
                   type: integer
-                  example: '495263'
+                  example: '398786'
                 email:
                   type: string
                   example: augxdeveloper@gmail.com
@@ -1923,10 +1924,34 @@ paths:
             schema:
               type: object
               example:
-                type: instagram
-                access_token: dfafdaf00
-                userID: '123'
-                data: ''
+                type: facebook
+                access_token: >-
+                  EAANuNuPz88EBO1MzSjbUDKbZBQcISiLZBl6ntd8ZB7FIfgoYYHRZA5kgzI1ZCMZCM5DDSzi5NOReIkFsSuD2EBlfwtkwgboX4NNRE30FDW0ZCHOdtNFEPn04cIMbd8OpwHlAt6ol58rF9ejCGZBxgcq36FqZAV8UZCRKXSvTTFijvZBErEcS5LCaMOpNjre10ZAhDyviw8vHbcNIctWXks38ygZDZD
+                userID: '2600831653425364'
+                data:
+                  userID: '2600831653425364'
+                  expiresIn: 6276
+                  accessToken: >-
+                    EAANuNuPz88EBO1MzSjbUDKbZBQcISiLZBl6ntd8ZB7FIfgoYYHRZA5kgzI1ZCMZCM5DDSzi5NOReIkFsSuD2EBlfwtkwgboX4NNRE30FDW0ZCHOdtNFEPn04cIMbd8OpwHlAt6ol58rF9ejCGZBxgcq36FqZAV8UZCRKXSvTTFijvZBErEcS5LCaMOpNjre10ZAhDyviw8vHbcNIctWXks38ygZDZD
+                  signedRequest: >-
+                    tyCf8yg9VhxXA9iROXyInC2R92ckkAbW-dBJJy0iSbQ.eyJ1c2VyX2lkIjoiMjYwMDgzMTY1MzQyNTM2NCIsImNvZGUiOiJBUUJ1VDk0NUpuQWRPNTR4Nmp6bDV4S085amp0c19kRkdDUHNCa0xpU2gzQmM0NTJPZnJKblVGNUp6TkxVMUlRQ3hyTGNMdmJ1VEF4ZUpVWkRhanFkX29KaHRJakRwVFdFbFlUMEVfUlhCX1d6VEJKRXg2dmljSDRYaU95NzJHQm5HTDZFS01FWXpGRmZwX2VmYkZfbGhnS3VVWlVuT3JMTWdiVHl0MkMxb29aS1dBd0YybVRYcExPeEpVTlY5WUZRb1Bja1N4bUdIVEx0LVpZZjhmTlczLVZFNTdaWlVkNnQ0UEVFY1RyZnZFeVlsNmE5VkN5TUU1MlA5NGNIdHNDTUJ0alM3NjJPQlBrN1dsOGZJMm1fT240MG5McjZsSmVPanlDR0Q1OEM5dzMyRHdXOUI4eVBxWUdpWEhZUDVPWWZ3ZzRieVNibEtQekpBNE9IUlZJaE1YTXhZci0xQzY0WEpWRnh6R2VUYzh5OGFqazFmRjV4NWdqMFllUjREX3BUR2ciLCJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImlzc3VlZF9hdCI6MTcxNDcxNjkyNH0
+                  graphDomain: facebook
+                  grantedScopes: >-
+                    pages_show_list,instagram_basic,instagram_content_publish,pages_read_engagement,pages_manage_posts
+                  data_access_expiration_time: 1722492924
+                  id: '2600831653425364'
+                  first_name: Saurav
+                  last_name: Ghimire
+                  name: Saurav Ghimire
+                  name_format: '{first} {last}'
+                  picture:
+                    data:
+                      height: 50
+                      is_silhouette: false
+                      url: >-
+                        https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=2600831653425364&height=50&width=50&ext=1717308925&hash=Abb7G-NHcapOzbBhOwo95LyL
+                      width: 50
+                  short_name: Saurav
       security:
         - bearerAuth: []
       parameters:
@@ -1989,20 +2014,27 @@ paths:
               properties:
                 title:
                   type: string
-                  example: post 1
+                  example: post 100000
                 is_draft:
                   type: boolean
                   description: true,false,1,0
-                  example: 'true'
+                  example: 'false'
                 publish_now:
-                  type: string
+                  type: boolean
                   description: true,false,1,0|required_if:is_draft,false,0
+                  example: 'true'
                 publish_date:
                   type: string
                   description: datetime||required_if:publish_now,false,0
                 attachments[]:
                   type: string
                   format: binary
+                social_media_array[2][]:
+                  type: integer
+                  example: '1'
+                social_media_array[1][]:
+                  type: integer
+                  example: '4'
       security:
         - bearerAuth: []
       parameters:
@@ -2272,6 +2304,186 @@ paths:
             type: integer
           required: true
           example: '76'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /api/note:
+    post:
+      tags:
+        - General > Note
+      summary: store
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                title: instagram
+                status: active
+                note_date: '1985-09-25 17:45:30.005'
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: application/json
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+    get:
+      tags:
+        - General > Note
+      summary: list
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: application/json
+        - name: paginate
+          in: query
+          schema:
+            type: string
+        - name: page
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+        - name: search_keyword
+          in: query
+          schema:
+            type: string
+        - name: status
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /api/note/{id}:
+    post:
+      tags:
+        - General > Note
+      summary: update
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                _method: PUT
+                title: instagram
+                status: active
+                note_date: '1985-09-25T17:45:30.005'
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: application/json
+        - name: id
+          in: path
+          schema:
+            type: integer
+          required: true
+          example: '1'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+    delete:
+      tags:
+        - General > Note
+      summary: delete
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: application/json
+        - name: id
+          in: path
+          schema:
+            type: integer
+          required: true
+          example: '1'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+    get:
+      tags:
+        - General > Note
+      summary: show
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: application/json
+        - name: id
+          in: path
+          schema:
+            type: integer
+          required: true
+          example: '1'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /api/note/{id}/update-status:
+    post:
+      tags:
+        - General > Note
+      summary: update status
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                _method:
+                  type: string
+                  example: PUT
+                status:
+                  type: string
+                  example: active
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: application/json
+        - name: id
+          in: path
+          schema:
+            type: integer
+          required: true
+          example: '1'
       responses:
         '200':
           description: Successful response

@@ -3,8 +3,8 @@
 		"_postman_id": "ec9cbb11-516c-4a9f-b7fe-65bc8c2e6dfc",
 		"name": "Social media manager",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "34363131",
-		"_collection_link": "https://warped-zodiac-853382.postman.co/workspace/New-Team-Workspace~d1f83f1c-f92a-4286-907c-a6600ef65476/collection/20088861-ec9cbb11-516c-4a9f-b7fe-65bc8c2e6dfc?action=share&source=collection_link&creator=34363131"
+		"_exporter_id": "34654705",
+		"_collection_link": "https://warped-zodiac-853382.postman.co/workspace/New-Team-Workspace~d1f83f1c-f92a-4286-907c-a6600ef65476/collection/20088861-ec9cbb11-516c-4a9f-b7fe-65bc8c2e6dfc?action=share&source=collection_link&creator=34654705"
 	},
 	"item": [
 		{
@@ -81,7 +81,7 @@
 							{
 								"key": "Content-Type",
 								"value": "application/json",
-								"uuid": "fa483f98-232d-4885-8cd5-bfe3e8d46863"
+								"uuid": "5cfc02bc-f85a-472f-8fe6-0f3cb99ba6f1"
 							}
 						],
 						"body": {
@@ -141,7 +141,7 @@
 							{
 								"key": "Content-Type",
 								"value": "application/json",
-								"uuid": "d31ef675-1df2-4b37-a174-c9eb207e20cb"
+								"uuid": "c1ed3bba-8116-4834-875f-f7b67de6d896"
 							}
 						],
 						"body": {
@@ -179,7 +179,7 @@
 							{
 								"key": "Content-Type",
 								"value": "application/json",
-								"uuid": "2bd623ad-c74a-4556-b04b-709d864a5f94"
+								"uuid": "736df71b-66b6-48e0-aa07-13be53a0c4d8"
 							}
 						],
 						"body": {
@@ -227,7 +227,7 @@
 							{
 								"key": "Content-Type",
 								"value": "application/json",
-								"uuid": "6d436487-2579-4b25-8399-4a00502f93bb"
+								"uuid": "88b576a1-d1ff-4ccf-8596-f220353e9914"
 							}
 						],
 						"body": {
@@ -463,7 +463,7 @@
 										{
 											"key": "refresh_token",
 											"value": "{{refresh_token}}",
-											"uuid": "2bb6e620-0cf2-48e3-9cbe-4acfbc7dcfca"
+											"uuid": "df45452c-b058-4e2f-9baf-085af7e643b2"
 										}
 									]
 								}
@@ -500,7 +500,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "8ac39df5-ad4d-47e1-b0b0-f252d747075e"
+										"uuid": "bf1eb766-a022-4c3f-8369-925a013e2c53"
 									}
 								],
 								"url": {
@@ -687,7 +687,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "91dc34c1-6831-4bf8-8e16-647274757b7a"
+										"uuid": "421c2e6b-c822-4c35-bbfa-e7f672309e99"
 									}
 								],
 								"body": {
@@ -1104,7 +1104,7 @@
 										{
 											"key": "id",
 											"value": "1",
-											"uuid": "6f6419db-ca73-41ea-ab6c-436d059bf87e"
+											"uuid": "5ae228ad-06f3-41ac-ab34-e97621836d0e"
 										}
 									]
 								}
@@ -1135,7 +1135,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "9eb2f821-6dbc-4329-9ad3-a2dbb4774921"
+										"uuid": "3ed22ff8-1b33-44a1-a52f-0c35479b5c92"
 									}
 								],
 								"body": {
@@ -1181,7 +1181,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "e4cac258-f6e1-46ef-9d75-4f2c1670d9ac"
+										"uuid": "5df583d2-9de0-4f45-8328-5de8fca54042"
 									}
 								],
 								"body": {
@@ -1214,7 +1214,7 @@
 										{
 											"key": "id",
 											"value": "6",
-											"uuid": "1b3471f3-49be-4a92-8605-4b71262fb999"
+											"uuid": "3bc2c60d-34ff-4ecc-a2f0-0cac4ab0b482"
 										}
 									]
 								}
@@ -1240,7 +1240,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "da93733e-877d-48bf-a288-d88a71c7f770"
+										"uuid": "0d22c38f-6d8b-4ca9-bf0a-4b6438157757"
 									}
 								],
 								"body": {
@@ -1262,7 +1262,7 @@
 										{
 											"key": "id",
 											"value": "7",
-											"uuid": "7f0a0dea-59a1-4cd5-a6db-146ea53aef5e"
+											"uuid": "7e2f67a2-1fcb-432f-ba93-68ca82703d2b"
 										}
 									]
 								}
@@ -1348,7 +1348,7 @@
 										{
 											"key": "id",
 											"value": "3",
-											"uuid": "fd06ef6a-9d45-401d-9b28-205f56e8660b"
+											"uuid": "124cd794-e794-4626-aa2c-a4d437086bae"
 										}
 									]
 								}
@@ -1374,13 +1374,13 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "121e568c-bacb-4680-aab7-d28a879def89"
+										"uuid": "9079764a-c984-4090-b13b-3ba07153e1e6"
 									},
 									{
 										"key": "company-id",
 										"value": "1",
 										"type": "text",
-										"uuid": "d85a4417-5408-4658-8042-b6e1739856bf"
+										"uuid": "786f5d01-c31a-4150-b299-6536d1a860ba"
 									}
 								],
 								"body": {
@@ -1408,7 +1408,7 @@
 										{
 											"key": "id",
 											"value": "3",
-											"uuid": "f83e9362-b405-45bf-a629-e26126a589d3"
+											"uuid": "e8163cce-3fe0-43d1-8ea4-a136807952c7"
 										}
 									]
 								}
@@ -1439,7 +1439,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "9e924bcc-d1ff-46ed-aab0-d300ddad6782"
+										"uuid": "3b29e55c-9752-4b14-a3f2-0a35d6f3a6d6"
 									}
 								],
 								"body": {
@@ -1538,7 +1538,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "9f04ad3a-ea25-41d0-8bd3-829e4eeaa4fb"
+										"uuid": "f151c245-b747-499e-9821-4738c8b97595"
 									}
 								],
 								"body": {
@@ -1622,7 +1622,7 @@
 										{
 											"key": "id",
 											"value": "4",
-											"uuid": "209a8b65-ba0e-4eb8-8ad8-7f91641ad92a"
+											"uuid": "bb76fd3d-bddf-43c5-99e9-9332ccc82975"
 										}
 									]
 								}
@@ -1648,7 +1648,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "d687f4e5-78f9-4a69-9cd1-2e96441efb9d"
+										"uuid": "5084a570-0834-43db-8f93-9b61f7de3d6f"
 									}
 								],
 								"body": {
@@ -1670,7 +1670,7 @@
 										{
 											"key": "id",
 											"value": "5",
-											"uuid": "228ffd01-8304-4e54-8c5b-c7914eb27431"
+											"uuid": "e23e3679-dac9-4deb-b8fd-2b8f6554c206"
 										}
 									]
 								}
@@ -1774,7 +1774,7 @@
 										{
 											"key": "id",
 											"value": "1",
-											"uuid": "4ce12e8b-c928-49ca-b4a4-40b589d2fa34"
+											"uuid": "6767de79-c166-4d6c-bff0-cd89ef59b23d"
 										}
 									]
 								}
@@ -1800,13 +1800,13 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "3f14c71e-ffd4-4b7f-b2ae-734ba567b5b6"
+										"uuid": "de9677a7-8bbf-49d0-b6a6-fce38357f269"
 									},
 									{
 										"key": "company-id",
 										"value": "1",
 										"type": "text",
-										"uuid": "6edb3db4-b655-4b00-aa00-4679345146e0"
+										"uuid": "83c653e1-564d-4c0e-8abd-d3c59536cdd1"
 									}
 								],
 								"body": {
@@ -1834,7 +1834,7 @@
 										{
 											"key": "id",
 											"value": "4",
-											"uuid": "81d4628a-6152-473f-85e6-386ae298065c"
+											"uuid": "eff97cfb-9843-4b3b-ac98-b4aa9fe25e81"
 										}
 									]
 								}
@@ -1860,13 +1860,13 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "39ee61a6-296c-47be-a514-43a3dd09d7bc"
+										"uuid": "cf169538-cfc4-43a8-acaa-50b22369a7cc"
 									},
 									{
 										"key": "company-id",
 										"value": "1",
 										"type": "text",
-										"uuid": "83dac022-2411-47b0-b34e-56eaeb9d17f4"
+										"uuid": "2f5a50fa-c877-41c8-9c44-e15c38eceb1c"
 									}
 								],
 								"body": {
@@ -1894,7 +1894,7 @@
 										{
 											"key": "id",
 											"value": "6",
-											"uuid": "47b209b7-7485-436f-ae44-951853fe1645"
+											"uuid": "86907f99-ddf1-4b44-b4b8-4616d5cae5c4"
 										}
 									]
 								}
@@ -1949,7 +1949,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "b5bb1668-ed51-48ff-817c-cd28477d3f2b",
+										"uuid": "cbfd31b8-3637-4833-930e-bd90a732b046",
 										"disabled": true
 									}
 								],
@@ -1985,7 +1985,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "396c119d-27bb-4890-ae4a-ea15b11ce801",
+										"uuid": "4e57a6e4-5a2b-454d-a5c1-1d564acedb9a",
 										"disabled": true
 									}
 								],
@@ -2101,7 +2101,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "4e602cec-346b-4be5-a356-d63a4231b004"
+										"uuid": "266bc8d1-c0cd-4f0a-a73d-5e97e3de9ff9"
 									}
 								],
 								"body": {
@@ -2152,7 +2152,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "7dc896af-87ad-43ba-9ea7-4b34eeccc972"
+										"uuid": "2c9adeba-1c7a-441c-af58-d6036bc23b11"
 									}
 								],
 								"body": {
@@ -2185,7 +2185,7 @@
 										{
 											"key": "id",
 											"value": "6",
-											"uuid": "256b6197-a27a-42c2-9d4e-c0aa4da73426"
+											"uuid": "e5a0f48d-c53d-4955-abcc-3870c01fbee9"
 										}
 									]
 								}
@@ -2211,7 +2211,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "17a415df-3bb7-4acb-9d47-d28afccd5d20"
+										"uuid": "274782f8-1a81-469c-b1da-6d9db1744323"
 									}
 								],
 								"body": {
@@ -2245,7 +2245,7 @@
 										{
 											"key": "id",
 											"value": "6",
-											"uuid": "1d263739-3cef-46a0-98a9-c42c7a37d62e"
+											"uuid": "f97a86d8-b720-477f-bb5a-3424d821cbbb"
 										}
 									]
 								}
@@ -2271,7 +2271,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "f8955a10-7445-4385-ae20-eaf2d0d1fe57"
+										"uuid": "a1466803-8532-4f81-a6eb-a24929fdaaa5"
 									}
 								],
 								"body": {
@@ -2293,7 +2293,7 @@
 										{
 											"key": "id",
 											"value": "7",
-											"uuid": "9eb41e65-daa2-4aa2-be71-32a1ad8e0d69"
+											"uuid": "4e06555c-970d-4881-9b57-7dc1808ad5bb"
 										}
 									]
 								}
@@ -2322,7 +2322,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "c3dfb5e4-5e3c-48f1-9a39-1e5f2cdbc5b5"
+										"uuid": "bc004a3f-e61d-4a6e-8f90-45b509148946"
 									}
 								],
 								"body": {
@@ -2392,7 +2392,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "fefa45e9-edb5-4e24-9a7e-28e256ce92f8"
+										"uuid": "bb37fd71-b93d-4468-af01-e3b697b23835"
 									}
 								],
 								"body": {
@@ -2414,7 +2414,7 @@
 										{
 											"key": "id",
 											"value": "6",
-											"uuid": "13ef40e4-3670-4ab9-9c4d-a1c0502c8284"
+											"uuid": "0fa2ec02-28c3-4714-9616-1025e98ff36c"
 										}
 									]
 								}
@@ -2485,7 +2485,7 @@
 												{
 													"key": "provider",
 													"value": "google",
-													"uuid": "13e2fa5c-6735-4686-ab89-ca5343e2f528"
+													"uuid": "2ebbcd76-dbb1-4e4d-ac42-89da28467ef0"
 												}
 											]
 										}
@@ -2581,7 +2581,7 @@
 										{
 											"key": "refresh_token",
 											"value": "{{refresh_token}}",
-											"uuid": "f41c874d-2394-4995-85f7-fd92491d75ba"
+											"uuid": "fc750069-b4b4-4282-8261-5d257b82cea4"
 										}
 									]
 								}
@@ -2621,7 +2621,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "eff7bd52-7313-4ca4-89ed-6941c39a4559"
+										"uuid": "cbfb235a-f4ce-469a-9320-5bb6ccf37ebd"
 									}
 								],
 								"url": {
@@ -2804,7 +2804,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "0ce52bbd-77d5-40f2-abfe-360dccfc76db"
+										"uuid": "6a8e213a-a829-424c-bc7c-c8948ddb7639"
 									}
 								],
 								"body": {
@@ -2954,7 +2954,7 @@
 									"formdata": [
 										{
 											"key": "token",
-											"value": "398786",
+											"value": "382427",
 											"type": "text"
 										},
 										{
@@ -3144,7 +3144,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"uuid": "bbbfb9de-b712-438c-8253-833ed260cd34"
+										"uuid": "58fa3619-9f1c-435f-b0ff-ea3e137b2ba1"
 									}
 								],
 								"body": {
@@ -3187,7 +3187,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"uuid": "ef4ee9e8-57eb-4c4d-b74c-864c46e21f3b"
+										"uuid": "3111c131-dd9a-4f49-90e5-b1fb63fac5ca"
 									}
 								],
 								"body": {
@@ -3213,7 +3213,7 @@
 										{
 											"key": "id",
 											"value": "1",
-											"uuid": "2928e805-613b-4d3a-a411-9458ad91b20a"
+											"uuid": "4fa50ff6-ecb6-408c-bb30-7e2d8d2fed04"
 										}
 									]
 								}
@@ -3238,12 +3238,12 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"uuid": "c996e510-6f56-46c2-ac1c-0104ad96254f"
+										"uuid": "e534f91b-4a80-43b4-81de-c5b462075915"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"type\": \"facebook\",\r\n    \"access_token\": \"EAANuNuPz88EBO1MzSjbUDKbZBQcISiLZBl6ntd8ZB7FIfgoYYHRZA5kgzI1ZCMZCM5DDSzi5NOReIkFsSuD2EBlfwtkwgboX4NNRE30FDW0ZCHOdtNFEPn04cIMbd8OpwHlAt6ol58rF9ejCGZBxgcq36FqZAV8UZCRKXSvTTFijvZBErEcS5LCaMOpNjre10ZAhDyviw8vHbcNIctWXks38ygZDZD\",\r\n    \"userID\":\"2600831653425364\",\r\n    \"data\":  {\r\n        \"userID\": \"2600831653425364\",\r\n        \"expiresIn\": 6276,\r\n        \"accessToken\": \"EAANuNuPz88EBO1MzSjbUDKbZBQcISiLZBl6ntd8ZB7FIfgoYYHRZA5kgzI1ZCMZCM5DDSzi5NOReIkFsSuD2EBlfwtkwgboX4NNRE30FDW0ZCHOdtNFEPn04cIMbd8OpwHlAt6ol58rF9ejCGZBxgcq36FqZAV8UZCRKXSvTTFijvZBErEcS5LCaMOpNjre10ZAhDyviw8vHbcNIctWXks38ygZDZD\",\r\n        \"signedRequest\": \"tyCf8yg9VhxXA9iROXyInC2R92ckkAbW-dBJJy0iSbQ.eyJ1c2VyX2lkIjoiMjYwMDgzMTY1MzQyNTM2NCIsImNvZGUiOiJBUUJ1VDk0NUpuQWRPNTR4Nmp6bDV4S085amp0c19kRkdDUHNCa0xpU2gzQmM0NTJPZnJKblVGNUp6TkxVMUlRQ3hyTGNMdmJ1VEF4ZUpVWkRhanFkX29KaHRJakRwVFdFbFlUMEVfUlhCX1d6VEJKRXg2dmljSDRYaU95NzJHQm5HTDZFS01FWXpGRmZwX2VmYkZfbGhnS3VVWlVuT3JMTWdiVHl0MkMxb29aS1dBd0YybVRYcExPeEpVTlY5WUZRb1Bja1N4bUdIVEx0LVpZZjhmTlczLVZFNTdaWlVkNnQ0UEVFY1RyZnZFeVlsNmE5VkN5TUU1MlA5NGNIdHNDTUJ0alM3NjJPQlBrN1dsOGZJMm1fT240MG5McjZsSmVPanlDR0Q1OEM5dzMyRHdXOUI4eVBxWUdpWEhZUDVPWWZ3ZzRieVNibEtQekpBNE9IUlZJaE1YTXhZci0xQzY0WEpWRnh6R2VUYzh5OGFqazFmRjV4NWdqMFllUjREX3BUR2ciLCJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImlzc3VlZF9hdCI6MTcxNDcxNjkyNH0\",\r\n        \"graphDomain\": \"facebook\",\r\n        \"grantedScopes\": \"pages_show_list,instagram_basic,instagram_content_publish,pages_read_engagement,pages_manage_posts\",\r\n        \"data_access_expiration_time\": 1722492924,\r\n        \"id\": \"2600831653425364\",\r\n        \"first_name\": \"Saurav\",\r\n        \"last_name\": \"Ghimire\",\r\n        \"name\": \"Saurav Ghimire\",\r\n        \"name_format\": \"{first} {last}\",\r\n        \"picture\": {\r\n            \"data\": {\r\n                \"height\": 50,\r\n                \"is_silhouette\": false,\r\n                \"url\": \"https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=2600831653425364&height=50&width=50&ext=1717308925&hash=Abb7G-NHcapOzbBhOwo95LyL\",\r\n                \"width\": 50\r\n            }\r\n        },\r\n        \"short_name\": \"Saurav\"\r\n    }\r\n}",
+									"raw": "{\r\n    \"type\": \"facebook\",\r\n    \"access_token\": \"EAANuNuPz88EBO68KKj7cIJLdQiwsLq68i4PRmWgez4v5m459pZAIsu1JIzgyIX40JZAwAZBkSvbA6ZAIfMgZCJFhDlZB8ZCdZBjXIKBBnOihlKksYOwLxMhNoegSvt8Nh1vLnjlAhdZBsIf6SZCqJQNJl9NOuAZBvSn0FdDZB9bxmUTiQLGR7nVoV8BKlkPilGVKH71YOvi6WZBDqPOYADxZAp3gZDZD\",\r\n    \"userID\":\"2600831653425364\",\r\n    \"data\":  {\r\n        \"userID\": \"2600831653425364\",\r\n        \"expiresIn\": 6276,\r\n        \"accessToken\": \"EAANuNuPz88EBO1MzSjbUDKbZBQcISiLZBl6ntd8ZB7FIfgoYYHRZA5kgzI1ZCMZCM5DDSzi5NOReIkFsSuD2EBlfwtkwgboX4NNRE30FDW0ZCHOdtNFEPn04cIMbd8OpwHlAt6ol58rF9ejCGZBxgcq36FqZAV8UZCRKXSvTTFijvZBErEcS5LCaMOpNjre10ZAhDyviw8vHbcNIctWXks38ygZDZD\",\r\n        \"signedRequest\": \"tyCf8yg9VhxXA9iROXyInC2R92ckkAbW-dBJJy0iSbQ.eyJ1c2VyX2lkIjoiMjYwMDgzMTY1MzQyNTM2NCIsImNvZGUiOiJBUUJ1VDk0NUpuQWRPNTR4Nmp6bDV4S085amp0c19kRkdDUHNCa0xpU2gzQmM0NTJPZnJKblVGNUp6TkxVMUlRQ3hyTGNMdmJ1VEF4ZUpVWkRhanFkX29KaHRJakRwVFdFbFlUMEVfUlhCX1d6VEJKRXg2dmljSDRYaU95NzJHQm5HTDZFS01FWXpGRmZwX2VmYkZfbGhnS3VVWlVuT3JMTWdiVHl0MkMxb29aS1dBd0YybVRYcExPeEpVTlY5WUZRb1Bja1N4bUdIVEx0LVpZZjhmTlczLVZFNTdaWlVkNnQ0UEVFY1RyZnZFeVlsNmE5VkN5TUU1MlA5NGNIdHNDTUJ0alM3NjJPQlBrN1dsOGZJMm1fT240MG5McjZsSmVPanlDR0Q1OEM5dzMyRHdXOUI4eVBxWUdpWEhZUDVPWWZ3ZzRieVNibEtQekpBNE9IUlZJaE1YTXhZci0xQzY0WEpWRnh6R2VUYzh5OGFqazFmRjV4NWdqMFllUjREX3BUR2ciLCJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImlzc3VlZF9hdCI6MTcxNDcxNjkyNH0\",\r\n        \"graphDomain\": \"facebook\",\r\n        \"grantedScopes\": \"pages_show_list,instagram_basic,instagram_content_publish,pages_read_engagement,pages_manage_posts\",\r\n        \"data_access_expiration_time\": 1722492924,\r\n        \"id\": \"2600831653425364\",\r\n        \"first_name\": \"Saurav\",\r\n        \"last_name\": \"Ghimire\",\r\n        \"name\": \"Saurav Ghimire\",\r\n        \"name_format\": \"{first} {last}\",\r\n        \"picture\": {\r\n            \"data\": {\r\n                \"height\": 50,\r\n                \"is_silhouette\": false,\r\n                \"url\": \"https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=2600831653425364&height=50&width=50&ext=1717308925&hash=Abb7G-NHcapOzbBhOwo95LyL\",\r\n                \"width\": 50\r\n            }\r\n        },\r\n        \"short_name\": \"Saurav\"\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -3283,7 +3283,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "902cedd4-5699-4204-bd90-5e2c1c8a35cf"
+										"uuid": "9baf4909-0d81-4262-a62a-b81075b14ca2"
 									}
 								],
 								"body": {
@@ -3316,7 +3316,7 @@
 										{
 											"key": "id",
 											"value": "6",
-											"uuid": "91ef84d6-c0ff-4534-abfb-0058566fc89a"
+											"uuid": "b1ea0bab-f2dc-4bc2-8df1-234631b23110"
 										}
 									]
 								}
@@ -3342,7 +3342,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "7a11e44d-5786-423d-9a41-4ac7eda266c8"
+										"uuid": "27ce7d7b-44ea-49c3-ac99-1ca1250cbbee"
 									}
 								],
 								"body": {
@@ -3363,7 +3363,7 @@
 										{
 											"key": "id",
 											"value": "",
-											"uuid": "47f28dd8-7653-40a3-b8d3-52f9d6ff111c"
+											"uuid": "b92b4714-81a6-428d-888f-3755375f4da0"
 										}
 									]
 								}
@@ -3392,7 +3392,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "bc6c1e39-479a-4da7-ae8e-706c06afd142"
+										"uuid": "917dbc99-4211-4007-aefe-9caed06c5148"
 									}
 								],
 								"body": {
@@ -3461,7 +3461,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "88c17245-5c4a-4c8f-a972-e3d76859009d"
+										"uuid": "eebf5319-cc06-48b9-90b8-9ae6e192bf24"
 									}
 								],
 								"body": {
@@ -3482,7 +3482,7 @@
 										{
 											"key": "id",
 											"value": "2",
-											"uuid": "fe6a2def-9fd1-41c6-9b1d-275ec0972723"
+											"uuid": "a03d89b3-1f01-46dc-954e-86adf522c7a6"
 										}
 									]
 								}
@@ -3512,7 +3512,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"uuid": "40cb91a0-b6c5-4f23-a578-cdc9adb296f9"
+										"uuid": "029ccbe5-2cdf-4b5d-b28b-571e4538fff8"
 									}
 								],
 								"body": {
@@ -3527,12 +3527,20 @@
 											"key": "is_draft",
 											"value": "false",
 											"description": "true,false,1,0",
-											"type": "text"
+											"type": "text",
+											"disabled": true
 										},
 										{
 											"key": "publish_now",
 											"value": "true",
 											"description": "true,false,1,0|required_if:is_draft,false,0",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "",
+											"description": "draft|publish|schedulea",
 											"type": "text"
 										},
 										{
@@ -3552,19 +3560,20 @@
 											"src": "/C:/Users/August/Pictures/test-images/123.png"
 										},
 										{
-											"key": "social_media_array[2][]",
+											"key": "social_media_array[1][]",
 											"value": "1",
 											"type": "text"
 										},
 										{
 											"key": "social_media_array[1][]",
-											"value": "3",
+											"value": "2",
 											"type": "text"
 										},
 										{
-											"key": "social_media_array[1][]",
-											"value": "4",
-											"type": "text"
+											"key": "social_media_array[2][]",
+											"value": "1",
+											"type": "text",
+											"disabled": true
 										}
 									]
 								},
@@ -3599,8 +3608,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "69b16e60-9b4a-4c56-9498-d0fc9e93eb58"
+										"uuid": "ba7e1772-c431-4794-9efd-52ceb278b9a2"
 									}
 								],
 								"body": {
@@ -3613,23 +3621,34 @@
 										},
 										{
 											"key": "title",
-											"value": "post 1",
+											"value": "post 100000",
 											"type": "text"
 										},
 										{
-											"key": "is_draft",
-											"value": "true",
-											"type": "text"
-										},
-										{
-											"key": "publish_now",
-											"value": "false",
+											"key": "status",
+											"value": "",
 											"type": "text"
 										},
 										{
 											"key": "publish_date",
-											"value": "false",
+											"value": "",
 											"type": "text"
+										},
+										{
+											"key": "social_media_array[1][]",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "social_media_array[1][]",
+											"value": "2",
+											"type": "text"
+										},
+										{
+											"key": "social_media_array[2][]",
+											"value": "1",
+											"type": "text",
+											"disabled": true
 										},
 										{
 											"key": "attachments[]",
@@ -3657,7 +3676,7 @@
 										{
 											"key": "id",
 											"value": "6",
-											"uuid": "eada3b5d-e1ee-434f-a633-06f4d38f0b0d"
+											"uuid": "c2bc2003-009e-4cb0-b6bb-4a905b739b6a"
 										}
 									]
 								}
@@ -3683,7 +3702,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "101e0eba-8463-495b-b484-50d6e7768277"
+										"uuid": "592b9615-8a21-4826-b9a0-2a42ff544d7e"
 									}
 								],
 								"body": {
@@ -3716,7 +3735,7 @@
 										{
 											"key": "id",
 											"value": "6",
-											"uuid": "2b857b0c-f1fd-41d3-a8b7-fc5dd08bb6ee"
+											"uuid": "cb5cd5fc-de3a-4a2e-b93d-06ae1828e977"
 										}
 									]
 								}
@@ -3742,7 +3761,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "04b61349-2fef-475e-81ac-77354e971fb9"
+										"uuid": "bfef9f98-ac7b-4e95-a1e6-7fa3123dc00e"
 									}
 								],
 								"body": {
@@ -3763,7 +3782,7 @@
 										{
 											"key": "id",
 											"value": "",
-											"uuid": "0b4ed788-d48d-42bc-9cbc-5edc8fbacad1"
+											"uuid": "0bd83282-87e9-4d83-9094-3896e71d7cb1"
 										}
 									]
 								}
@@ -3791,7 +3810,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"uuid": "2dcff909-d895-41b7-b68f-c6fad395c4c1"
+										"uuid": "0e8961dc-fd81-4713-9fd4-b7eb763e9841"
 									}
 								],
 								"body": {
@@ -3868,7 +3887,7 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "f0553e99-24c5-4743-ac24-dcd515ba338c"
+										"uuid": "96bc88f4-839c-4a8e-b67a-aa70c953eb98"
 									}
 								],
 								"body": {
@@ -3889,7 +3908,7 @@
 										{
 											"key": "id",
 											"value": "1",
-											"uuid": "f26332b2-a9ac-47f0-9054-807a362b615d"
+											"uuid": "d1559057-9873-4242-b8f2-5bc7f18d4618"
 										}
 									]
 								}
@@ -3943,12 +3962,12 @@
 										{
 											"key": "id",
 											"value": "1",
-											"uuid": "90c544b7-89b2-4435-8729-3e70afbf3ca8"
+											"uuid": "88eb6971-f88b-4d54-82e7-a7297e5b2dd7"
 										},
 										{
 											"key": "file_id",
 											"value": "73",
-											"uuid": "e7d92bd8-f8ad-4158-b979-f1e16a3f6bf3"
+											"uuid": "dd7c7362-dc36-489b-bbd6-6f2c34a3abb3"
 										}
 									]
 								}
@@ -3986,12 +4005,12 @@
 										{
 											"key": "id",
 											"value": "1",
-											"uuid": "9421d2da-104c-4af3-9a43-129f4563c191"
+											"uuid": "d33a198d-f42a-4233-bebe-4743de133e2b"
 										},
 										{
 											"key": "file_id",
 											"value": "74",
-											"uuid": "cb7e0041-ace7-4753-ba28-277b17e1e5ed"
+											"uuid": "890643e1-5549-4281-b78d-8a9d47a56adf"
 										}
 									]
 								}
@@ -4030,12 +4049,12 @@
 										{
 											"key": "id",
 											"value": "1",
-											"uuid": "8c7c0df2-d096-4ce2-87d1-e2d70c70e6e6"
+											"uuid": "ef09e0ff-2eff-4fca-a786-0cb19a5711bf"
 										},
 										{
 											"key": "file_id",
 											"value": "76",
-											"uuid": "885c4aaf-105c-4149-ad7f-b0c99668d680"
+											"uuid": "76126d49-787f-4790-bba4-524431ffa5df"
 										}
 									]
 								}
@@ -4065,12 +4084,12 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"uuid": "a248bcce-379e-441e-87e0-fa16ec916f33"
+										"uuid": "29362716-2bf5-48c4-b55c-cec7d9fd129d"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"title\": \"instagram\",\r\n    \"status\": \"active\",\r\n    \"note_date\":\"1985-09-25 17:45:30.005\"\r\n}",
+									"raw": "{\r\n    \"title\": \"instagram\",\r\n    \"description\":\"asdfdsdaf\",\r\n    \"status\": \"active\",\r\n    \"note_date\":\"1985-09-25 17:45:30.005\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -4108,12 +4127,12 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"uuid": "c5aa1d80-a957-41ec-b9d4-66c263e10ee2"
+										"uuid": "31271abd-9144-4cd4-9852-424073432134"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"_method\": \"PUT\",\r\n    \"title\": \"instagram\",\r\n    \"status\": \"active\",\r\n    \"note_date\": \"1985-09-25T17:45:30.005\"\r\n}",
+									"raw": "{\r\n    \"_method\": \"PUT\",\r\n    \"title\": \"instagram\",\r\n    \"description\":\"asdfdsdaf\",\r\n    \"status\": \"active\",\r\n    \"note_date\": \"1985-09-25T17:45:30.005\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -4134,7 +4153,7 @@
 										{
 											"key": "id",
 											"value": "1",
-											"uuid": "8c4bc494-5cc6-4c9d-820d-748f5d8f5071"
+											"uuid": "3205720f-daa8-42ea-a52c-6a1832804ee4"
 										}
 									]
 								}
@@ -4159,7 +4178,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"uuid": "3f980f06-3160-4f7d-a995-c55cc03bf998"
+										"uuid": "b3500dc4-2cda-40b6-b6cd-efde3eeb8cbe"
 									}
 								],
 								"body": {
@@ -4192,7 +4211,7 @@
 										{
 											"key": "id",
 											"value": "1",
-											"uuid": "a5de2fba-bd02-4b0a-bd14-3efa4283f0b1"
+											"uuid": "afd8d2e3-5d9b-4154-8f89-0f1fa62e372c"
 										}
 									]
 								}
@@ -4217,7 +4236,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"uuid": "1fd0e9f6-5c00-4b8d-ab15-72090f6f12f1"
+										"uuid": "acfac21a-bab4-4642-97a9-ece26251bd82"
 									}
 								],
 								"body": {
@@ -4238,7 +4257,7 @@
 										{
 											"key": "id",
 											"value": "1",
-											"uuid": "bb5b3905-cbe6-4fbd-acdd-6a72905fa9a8"
+											"uuid": "f5e08c9f-4759-44e1-b00c-651ebb896514"
 										}
 									]
 								}
@@ -4266,7 +4285,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"uuid": "f1772f86-9245-4a9d-ad2e-2452750d4a90"
+										"uuid": "8131e68e-6f05-451d-8f44-c97c9aa88077"
 									}
 								],
 								"body": {
@@ -4334,7 +4353,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"uuid": "6142f354-44bf-40bf-95a9-7fd60e466df8"
+										"uuid": "2fd546d5-4c02-4213-b9fe-f7bb74b803e3"
 									}
 								],
 								"body": {
@@ -4355,7 +4374,7 @@
 										{
 											"key": "id",
 											"value": "1",
-											"uuid": "77fe2a7f-9c0a-4ef8-9c3f-5880c9f1240f"
+											"uuid": "1f9f9919-27ea-4be1-92d2-c344ebd9c912"
 										}
 									]
 								}

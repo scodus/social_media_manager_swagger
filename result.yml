@@ -1665,7 +1665,7 @@ paths:
               properties:
                 token:
                   type: integer
-                  example: '398786'
+                  example: '382427'
                 email:
                   type: string
                   example: augxdeveloper@gmail.com
@@ -1926,7 +1926,7 @@ paths:
               example:
                 type: facebook
                 access_token: >-
-                  EAANuNuPz88EBO1MzSjbUDKbZBQcISiLZBl6ntd8ZB7FIfgoYYHRZA5kgzI1ZCMZCM5DDSzi5NOReIkFsSuD2EBlfwtkwgboX4NNRE30FDW0ZCHOdtNFEPn04cIMbd8OpwHlAt6ol58rF9ejCGZBxgcq36FqZAV8UZCRKXSvTTFijvZBErEcS5LCaMOpNjre10ZAhDyviw8vHbcNIctWXks38ygZDZD
+                  EAANuNuPz88EBO68KKj7cIJLdQiwsLq68i4PRmWgez4v5m459pZAIsu1JIzgyIX40JZAwAZBkSvbA6ZAIfMgZCJFhDlZB8ZCdZBjXIKBBnOihlKksYOwLxMhNoegSvt8Nh1vLnjlAhdZBsIf6SZCqJQNJl9NOuAZBvSn0FdDZB9bxmUTiQLGR7nVoV8BKlkPilGVKH71YOvi6WZBDqPOYADxZAp3gZDZD
                 userID: '2600831653425364'
                 data:
                   userID: '2600831653425364'
@@ -2023,18 +2023,21 @@ paths:
                   type: boolean
                   description: true,false,1,0|required_if:is_draft,false,0
                   example: 'true'
+                status:
+                  type: string
+                  description: draft|publish|schedulea
                 publish_date:
                   type: string
                   description: datetime||required_if:publish_now,false,0
                 attachments[]:
                   type: string
                   format: binary
+                social_media_array[1][]:
+                  type: integer
+                  example: '2'
                 social_media_array[2][]:
                   type: integer
                   example: '1'
-                social_media_array[1][]:
-                  type: integer
-                  example: '4'
       security:
         - bearerAuth: []
       parameters:
@@ -2109,16 +2112,17 @@ paths:
                   example: patch
                 title:
                   type: string
-                  example: post 1
-                is_draft:
-                  type: boolean
-                  example: 'true'
-                publish_now:
-                  type: boolean
-                  example: 'false'
+                  example: post 100000
+                status:
+                  type: string
                 publish_date:
-                  type: boolean
-                  example: 'false'
+                  type: string
+                social_media_array[1][]:
+                  type: integer
+                  example: '2'
+                social_media_array[2][]:
+                  type: integer
+                  example: '1'
                 attachments[]:
                   type: string
                   format: binary
@@ -2321,6 +2325,7 @@ paths:
               type: object
               example:
                 title: instagram
+                description: asdfdsdaf
                 status: active
                 note_date: '1985-09-25 17:45:30.005'
       security:
@@ -2386,6 +2391,7 @@ paths:
               example:
                 _method: PUT
                 title: instagram
+                description: asdfdsdaf
                 status: active
                 note_date: '1985-09-25T17:45:30.005'
       security:

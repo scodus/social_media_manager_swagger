@@ -80,8 +80,7 @@
 						"header": [
 							{
 								"key": "Content-Type",
-								"value": "application/json",
-								"uuid": "5cfc02bc-f85a-472f-8fe6-0f3cb99ba6f1"
+								"value": "application/json"
 							}
 						],
 						"body": {
@@ -140,8 +139,7 @@
 						"header": [
 							{
 								"key": "Content-Type",
-								"value": "application/json",
-								"uuid": "c1ed3bba-8116-4834-875f-f7b67de6d896"
+								"value": "application/json"
 							}
 						],
 						"body": {
@@ -178,8 +176,7 @@
 						"header": [
 							{
 								"key": "Content-Type",
-								"value": "application/json",
-								"uuid": "736df71b-66b6-48e0-aa07-13be53a0c4d8"
+								"value": "application/json"
 							}
 						],
 						"body": {
@@ -226,8 +223,7 @@
 						"header": [
 							{
 								"key": "Content-Type",
-								"value": "application/json",
-								"uuid": "88b576a1-d1ff-4ccf-8596-f220353e9914"
+								"value": "application/json"
 							}
 						],
 						"body": {
@@ -462,8 +458,7 @@
 									"variable": [
 										{
 											"key": "refresh_token",
-											"value": "{{refresh_token}}",
-											"uuid": "df45452c-b058-4e2f-9baf-085af7e643b2"
+											"value": "{{refresh_token}}"
 										}
 									]
 								}
@@ -499,8 +494,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "bf1eb766-a022-4c3f-8369-925a013e2c53"
+										"type": "text"
 									}
 								],
 								"url": {
@@ -686,8 +680,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "421c2e6b-c822-4c35-bbfa-e7f672309e99"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -1103,8 +1096,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1",
-											"uuid": "5ae228ad-06f3-41ac-ab34-e97621836d0e"
+											"value": "1"
 										}
 									]
 								}
@@ -1134,8 +1126,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "3ed22ff8-1b33-44a1-a52f-0c35479b5c92"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -1180,8 +1171,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "5df583d2-9de0-4f45-8328-5de8fca54042"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -1213,8 +1203,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "6",
-											"uuid": "3bc2c60d-34ff-4ecc-a2f0-0cac4ab0b482"
+											"value": "6"
 										}
 									]
 								}
@@ -1239,8 +1228,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "0d22c38f-6d8b-4ca9-bf0a-4b6438157757"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -1261,8 +1249,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "7",
-											"uuid": "7e2f67a2-1fcb-432f-ba93-68ca82703d2b"
+											"value": "7"
 										}
 									]
 								}
@@ -1347,8 +1334,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "3",
-											"uuid": "124cd794-e794-4626-aa2c-a4d437086bae"
+											"value": "3"
 										}
 									]
 								}
@@ -1373,14 +1359,12 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "9079764a-c984-4090-b13b-3ba07153e1e6"
+										"type": "text"
 									},
 									{
 										"key": "company-id",
 										"value": "1",
-										"type": "text",
-										"uuid": "786f5d01-c31a-4150-b299-6536d1a860ba"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -1407,8 +1391,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "3",
-											"uuid": "e8163cce-3fe0-43d1-8ea4-a136807952c7"
+											"value": "3"
 										}
 									]
 								}
@@ -1438,8 +1421,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "3b29e55c-9752-4b14-a3f2-0a35d6f3a6d6"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -1537,8 +1519,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "f151c245-b747-499e-9821-4738c8b97595"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -1621,8 +1602,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "4",
-											"uuid": "bb76fd3d-bddf-43c5-99e9-9332ccc82975"
+											"value": "4"
 										}
 									]
 								}
@@ -1647,8 +1627,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "5084a570-0834-43db-8f93-9b61f7de3d6f"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -1669,8 +1648,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "5",
-											"uuid": "e23e3679-dac9-4deb-b8fd-2b8f6554c206"
+											"value": "5"
 										}
 									]
 								}
@@ -1773,8 +1751,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1",
-											"uuid": "6767de79-c166-4d6c-bff0-cd89ef59b23d"
+											"value": "1"
 										}
 									]
 								}
@@ -1799,14 +1776,12 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "de9677a7-8bbf-49d0-b6a6-fce38357f269"
+										"type": "text"
 									},
 									{
 										"key": "company-id",
 										"value": "1",
-										"type": "text",
-										"uuid": "83c653e1-564d-4c0e-8abd-d3c59536cdd1"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -1833,8 +1808,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "4",
-											"uuid": "eff97cfb-9843-4b3b-ac98-b4aa9fe25e81"
+											"value": "4"
 										}
 									]
 								}
@@ -1859,14 +1833,12 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "cf169538-cfc4-43a8-acaa-50b22369a7cc"
+										"type": "text"
 									},
 									{
 										"key": "company-id",
 										"value": "1",
-										"type": "text",
-										"uuid": "2f5a50fa-c877-41c8-9c44-e15c38eceb1c"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -1893,8 +1865,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "6",
-											"uuid": "86907f99-ddf1-4b44-b4b8-4616d5cae5c4"
+											"value": "6"
 										}
 									]
 								}
@@ -1949,7 +1920,6 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "cbfd31b8-3637-4833-930e-bd90a732b046",
 										"disabled": true
 									}
 								],
@@ -1985,7 +1955,6 @@
 										"key": "Accept",
 										"value": "application/json",
 										"type": "text",
-										"uuid": "4e57a6e4-5a2b-454d-a5c1-1d564acedb9a",
 										"disabled": true
 									}
 								],
@@ -2100,8 +2069,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "266bc8d1-c0cd-4f0a-a73d-5e97e3de9ff9"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -2151,8 +2119,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "2c9adeba-1c7a-441c-af58-d6036bc23b11"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -2184,8 +2151,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "6",
-											"uuid": "e5a0f48d-c53d-4955-abcc-3870c01fbee9"
+											"value": "6"
 										}
 									]
 								}
@@ -2210,8 +2176,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "274782f8-1a81-469c-b1da-6d9db1744323"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -2244,8 +2209,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "6",
-											"uuid": "f97a86d8-b720-477f-bb5a-3424d821cbbb"
+											"value": "6"
 										}
 									]
 								}
@@ -2270,8 +2234,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "a1466803-8532-4f81-a6eb-a24929fdaaa5"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -2292,8 +2255,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "7",
-											"uuid": "4e06555c-970d-4881-9b57-7dc1808ad5bb"
+											"value": "7"
 										}
 									]
 								}
@@ -2321,8 +2283,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "bc004a3f-e61d-4a6e-8f90-45b509148946"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -2391,8 +2352,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "bb37fd71-b93d-4468-af01-e3b697b23835"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -2413,8 +2373,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "6",
-											"uuid": "0fa2ec02-28c3-4714-9616-1025e98ff36c"
+											"value": "6"
 										}
 									]
 								}
@@ -2484,8 +2443,7 @@
 											"variable": [
 												{
 													"key": "provider",
-													"value": "google",
-													"uuid": "2ebbcd76-dbb1-4e4d-ac42-89da28467ef0"
+													"value": "google"
 												}
 											]
 										}
@@ -2580,8 +2538,7 @@
 									"variable": [
 										{
 											"key": "refresh_token",
-											"value": "{{refresh_token}}",
-											"uuid": "fc750069-b4b4-4282-8261-5d257b82cea4"
+											"value": "{{refresh_token}}"
 										}
 									]
 								}
@@ -2620,8 +2577,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "cbfb235a-f4ce-469a-9320-5bb6ccf37ebd"
+										"type": "text"
 									}
 								],
 								"url": {
@@ -2803,8 +2759,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "6a8e213a-a829-424c-bc7c-c8948ddb7639"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -3143,8 +3098,7 @@
 								"header": [
 									{
 										"key": "Accept",
-										"value": "application/json",
-										"uuid": "58fa3619-9f1c-435f-b0ff-ea3e137b2ba1"
+										"value": "application/json"
 									}
 								],
 								"body": {
@@ -3186,13 +3140,12 @@
 								"header": [
 									{
 										"key": "Accept",
-										"value": "application/json",
-										"uuid": "3111c131-dd9a-4f49-90e5-b1fb63fac5ca"
+										"value": "application/json"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"_method\":\"PUT\",\r\n    \"type\": \"instagram\",\r\n    \"access_token\": \"dfafdaf00\",\r\n    \"userID\":\"123\",\r\n    \"data\": \"\"\r\n}",
+									"raw": "{\r\n    \"_method\":\"PUT\",\r\n    \"type\": \"instagram\",\r\n    \"access_token\": \"dfafdaf00\",\r\n    \"userID\":\"123\",\r\n    \"data\": \"\"\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -3212,8 +3165,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1",
-											"uuid": "4fa50ff6-ecb6-408c-bb30-7e2d8d2fed04"
+											"value": "1"
 										}
 									]
 								}
@@ -3237,13 +3189,12 @@
 								"header": [
 									{
 										"key": "Accept",
-										"value": "application/json",
-										"uuid": "e534f91b-4a80-43b4-81de-c5b462075915"
+										"value": "application/json"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"type\": \"facebook\",\r\n    \"access_token\": \"EAANuNuPz88EBO68KKj7cIJLdQiwsLq68i4PRmWgez4v5m459pZAIsu1JIzgyIX40JZAwAZBkSvbA6ZAIfMgZCJFhDlZB8ZCdZBjXIKBBnOihlKksYOwLxMhNoegSvt8Nh1vLnjlAhdZBsIf6SZCqJQNJl9NOuAZBvSn0FdDZB9bxmUTiQLGR7nVoV8BKlkPilGVKH71YOvi6WZBDqPOYADxZAp3gZDZD\",\r\n    \"userID\":\"2600831653425364\",\r\n    \"data\":  {\r\n        \"userID\": \"2600831653425364\",\r\n        \"expiresIn\": 6276,\r\n        \"accessToken\": \"EAANuNuPz88EBO1MzSjbUDKbZBQcISiLZBl6ntd8ZB7FIfgoYYHRZA5kgzI1ZCMZCM5DDSzi5NOReIkFsSuD2EBlfwtkwgboX4NNRE30FDW0ZCHOdtNFEPn04cIMbd8OpwHlAt6ol58rF9ejCGZBxgcq36FqZAV8UZCRKXSvTTFijvZBErEcS5LCaMOpNjre10ZAhDyviw8vHbcNIctWXks38ygZDZD\",\r\n        \"signedRequest\": \"tyCf8yg9VhxXA9iROXyInC2R92ckkAbW-dBJJy0iSbQ.eyJ1c2VyX2lkIjoiMjYwMDgzMTY1MzQyNTM2NCIsImNvZGUiOiJBUUJ1VDk0NUpuQWRPNTR4Nmp6bDV4S085amp0c19kRkdDUHNCa0xpU2gzQmM0NTJPZnJKblVGNUp6TkxVMUlRQ3hyTGNMdmJ1VEF4ZUpVWkRhanFkX29KaHRJakRwVFdFbFlUMEVfUlhCX1d6VEJKRXg2dmljSDRYaU95NzJHQm5HTDZFS01FWXpGRmZwX2VmYkZfbGhnS3VVWlVuT3JMTWdiVHl0MkMxb29aS1dBd0YybVRYcExPeEpVTlY5WUZRb1Bja1N4bUdIVEx0LVpZZjhmTlczLVZFNTdaWlVkNnQ0UEVFY1RyZnZFeVlsNmE5VkN5TUU1MlA5NGNIdHNDTUJ0alM3NjJPQlBrN1dsOGZJMm1fT240MG5McjZsSmVPanlDR0Q1OEM5dzMyRHdXOUI4eVBxWUdpWEhZUDVPWWZ3ZzRieVNibEtQekpBNE9IUlZJaE1YTXhZci0xQzY0WEpWRnh6R2VUYzh5OGFqazFmRjV4NWdqMFllUjREX3BUR2ciLCJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImlzc3VlZF9hdCI6MTcxNDcxNjkyNH0\",\r\n        \"graphDomain\": \"facebook\",\r\n        \"grantedScopes\": \"pages_show_list,instagram_basic,instagram_content_publish,pages_read_engagement,pages_manage_posts\",\r\n        \"data_access_expiration_time\": 1722492924,\r\n        \"id\": \"2600831653425364\",\r\n        \"first_name\": \"Saurav\",\r\n        \"last_name\": \"Ghimire\",\r\n        \"name\": \"Saurav Ghimire\",\r\n        \"name_format\": \"{first} {last}\",\r\n        \"picture\": {\r\n            \"data\": {\r\n                \"height\": 50,\r\n                \"is_silhouette\": false,\r\n                \"url\": \"https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=2600831653425364&height=50&width=50&ext=1717308925&hash=Abb7G-NHcapOzbBhOwo95LyL\",\r\n                \"width\": 50\r\n            }\r\n        },\r\n        \"short_name\": \"Saurav\"\r\n    }\r\n}",
+									"raw": "{\r\n    \"type\": \"facebook\",\r\n    \"access_token\": \"EAANuNuPz88EBOZCFWNQB6NnLZABPUNqf4PTBMJTZBLfur1HIJdF5WjoLHb9fAuAZARZCFp7gViL78JRpU1QseoZBBxStoWIfQmMCZCuuhEFL0pY1ud7QN7jWZAlPUmYbXiYdlE6UFy7xvLZCJK47twKk7zZAC5zEVvXf3SDF44FMfGDXZCFpbakEuC9SZB13KhIoeZA4WBZBsM6WzdtLZBUkkKwrwZDZD\",\r\n    \"userID\":\"2600831653425364\",\r\n    \"data\":  {\r\n        \"userID\": \"2600831653425364\",\r\n        \"expiresIn\": 6276,\r\n        \"accessToken\": \"EAANuNuPz88EBOZCecofdnSuJaBwlRIb6eeX2UVatO3a7ELEEhNznHL2RXU0k9QV8WGkeCAtw5kpF1rZC8CZAR6KwmYcmnOvasiF5IkNO5MdTEqZBt5icUBnOdmdwo3K2jrYmZCzQ8A6DyLRVUzGZBMWbMUv5m8m4zcPAdmKDm1wi0pzhLqd2gZCI59T0O6NmOOnzjwZBiQPxJYmEmJ9QBwZDZD\",\r\n        \"signedRequest\": \"tyCf8yg9VhxXA9iROXyInC2R92ckkAbW-dBJJy0iSbQ.eyJ1c2VyX2lkIjoiMjYwMDgzMTY1MzQyNTM2NCIsImNvZGUiOiJBUUJ1VDk0NUpuQWRPNTR4Nmp6bDV4S085amp0c19kRkdDUHNCa0xpU2gzQmM0NTJPZnJKblVGNUp6TkxVMUlRQ3hyTGNMdmJ1VEF4ZUpVWkRhanFkX29KaHRJakRwVFdFbFlUMEVfUlhCX1d6VEJKRXg2dmljSDRYaU95NzJHQm5HTDZFS01FWXpGRmZwX2VmYkZfbGhnS3VVWlVuT3JMTWdiVHl0MkMxb29aS1dBd0YybVRYcExPeEpVTlY5WUZRb1Bja1N4bUdIVEx0LVpZZjhmTlczLVZFNTdaWlVkNnQ0UEVFY1RyZnZFeVlsNmE5VkN5TUU1MlA5NGNIdHNDTUJ0alM3NjJPQlBrN1dsOGZJMm1fT240MG5McjZsSmVPanlDR0Q1OEM5dzMyRHdXOUI4eVBxWUdpWEhZUDVPWWZ3ZzRieVNibEtQekpBNE9IUlZJaE1YTXhZci0xQzY0WEpWRnh6R2VUYzh5OGFqazFmRjV4NWdqMFllUjREX3BUR2ciLCJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImlzc3VlZF9hdCI6MTcxNDcxNjkyNH0\",\r\n        \"graphDomain\": \"facebook\",\r\n        \"grantedScopes\": \"pages_show_list,instagram_basic,instagram_content_publish,pages_read_engagement,pages_manage_posts\",\r\n        \"data_access_expiration_time\": 1722492924,\r\n        \"id\": \"2600831653425364\",\r\n        \"first_name\": \"Saurav\",\r\n        \"last_name\": \"Ghimire\",\r\n        \"name\": \"Saurav Ghimire\",\r\n        \"name_format\": \"{first} {last}\",\r\n        \"picture\": {\r\n            \"data\": {\r\n                \"height\": 50,\r\n                \"is_silhouette\": false,\r\n                \"url\": \"https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=2600831653425364&height=50&width=50&ext=1717308925&hash=Abb7G-NHcapOzbBhOwo95LyL\",\r\n                \"width\": 50\r\n            }\r\n        },\r\n        \"short_name\": \"Saurav\"\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -3282,8 +3233,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "9baf4909-0d81-4262-a62a-b81075b14ca2"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -3315,8 +3265,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "6",
-											"uuid": "b1ea0bab-f2dc-4bc2-8df1-234631b23110"
+											"value": "6"
 										}
 									]
 								}
@@ -3341,8 +3290,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "27ce7d7b-44ea-49c3-ac99-1ca1250cbbee"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -3362,8 +3310,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "",
-											"uuid": "b92b4714-81a6-428d-888f-3755375f4da0"
+											"value": ""
 										}
 									]
 								}
@@ -3391,8 +3338,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "917dbc99-4211-4007-aefe-9caed06c5148"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -3460,8 +3406,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "eebf5319-cc06-48b9-90b8-9ae6e192bf24"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -3481,8 +3426,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "2",
-											"uuid": "a03d89b3-1f01-46dc-954e-86adf522c7a6"
+											"value": "2"
 										}
 									]
 								}
@@ -3511,8 +3455,7 @@
 								"header": [
 									{
 										"key": "Accept",
-										"value": "application/json",
-										"uuid": "029ccbe5-2cdf-4b5d-b28b-571e4538fff8"
+										"value": "application/json"
 									}
 								],
 								"body": {
@@ -3520,7 +3463,7 @@
 									"formdata": [
 										{
 											"key": "title",
-											"value": "post 100000",
+											"value": "test1",
 											"type": "text"
 										},
 										{
@@ -3539,39 +3482,75 @@
 										},
 										{
 											"key": "status",
-											"value": "",
-											"description": "draft|publish|schedulea",
+											"value": "publish",
+											"description": "draft|publish|schedule",
 											"type": "text"
 										},
 										{
 											"key": "publish_date",
-											"value": "",
+											"value": "2024-05-10 12:20:00",
 											"description": "datetime||required_if:publish_now,false,0",
 											"type": "text"
 										},
 										{
-											"key": "attachments[]",
-											"type": "file",
-											"src": "/C:/Users/August/Pictures/download.jpg"
-										},
-										{
-											"key": "attachments[]",
-											"type": "file",
-											"src": "/C:/Users/August/Pictures/test-images/123.png"
-										},
-										{
-											"key": "social_media_array[1][]",
+											"key": "social_media_array[0][id]",
 											"value": "1",
 											"type": "text"
 										},
 										{
-											"key": "social_media_array[1][]",
+											"key": "social_media_array[0][social_media_page_ids][0]",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "social_media_array[0][social_media_page_ids][1]",
 											"value": "2",
 											"type": "text"
 										},
 										{
+											"key": "social_media_array[1][id]",
+											"value": "2",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "social_media_array[1][social_media_page_ids][0]",
+											"value": "1",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "social_media_array[1][social_media_page_ids][1]",
+											"value": "2",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "attachments[]",
+											"type": "file",
+											"src": "/C:/Users/Scodus/Downloads/logoB.jpg"
+										},
+										{
+											"key": "social_media_array[1][]",
+											"value": "1",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "social_media_array[1][]",
+											"value": "2",
+											"type": "text",
+											"disabled": true
+										},
+										{
 											"key": "social_media_array[2][]",
 											"value": "1",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "link",
+											"value": "https://developers.facebook.com/docs/graph-api#graph-api",
 											"type": "text",
 											"disabled": true
 										}
@@ -3607,8 +3586,7 @@
 								"header": [
 									{
 										"key": "Accept",
-										"value": "application/json",
-										"uuid": "ba7e1772-c431-4794-9efd-52ceb278b9a2"
+										"value": "application/json"
 									}
 								],
 								"body": {
@@ -3675,8 +3653,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "6",
-											"uuid": "c2bc2003-009e-4cb0-b6bb-4a905b739b6a"
+											"value": "6"
 										}
 									]
 								}
@@ -3700,9 +3677,7 @@
 								"header": [
 									{
 										"key": "Accept",
-										"value": "application/json",
-										"type": "text",
-										"uuid": "592b9615-8a21-4826-b9a0-2a42ff544d7e"
+										"value": "application/json"
 									}
 								],
 								"body": {
@@ -3715,7 +3690,7 @@
 										},
 										{
 											"key": "status",
-											"value": "active",
+											"value": "publish",
 											"type": "text"
 										}
 									]
@@ -3734,8 +3709,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "6",
-											"uuid": "cb5cd5fc-de3a-4a2e-b93d-06ae1828e977"
+											"value": "39"
 										}
 									]
 								}
@@ -3759,9 +3733,7 @@
 								"header": [
 									{
 										"key": "Accept",
-										"value": "application/json",
-										"type": "text",
-										"uuid": "bfef9f98-ac7b-4e95-a1e6-7fa3123dc00e"
+										"value": "application/json"
 									}
 								],
 								"body": {
@@ -3781,8 +3753,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "",
-											"uuid": "0bd83282-87e9-4d83-9094-3896e71d7cb1"
+											"value": "38"
 										}
 									]
 								}
@@ -3809,8 +3780,7 @@
 								"header": [
 									{
 										"key": "Accept",
-										"value": "application/json",
-										"uuid": "0e8961dc-fd81-4713-9fd4-b7eb763e9841"
+										"value": "application/json"
 									}
 								],
 								"body": {
@@ -3823,7 +3793,7 @@
 									}
 								},
 								"url": {
-									"raw": "{{url}}/api/post?paginate=&page=&limit=&search_keyword=&status=&is_draft=&social_media_id=",
+									"raw": "{{url}}/api/post?paginate=1&page=1&limit=10&search_keyword=&status=&social_media_id=&created_at_start=&created_at_end=&publish_date=&publish_date_start=&publish_date_end",
 									"host": [
 										"{{url}}"
 									],
@@ -3834,15 +3804,15 @@
 									"query": [
 										{
 											"key": "paginate",
-											"value": ""
+											"value": "1"
 										},
 										{
 											"key": "page",
-											"value": ""
+											"value": "1"
 										},
 										{
 											"key": "limit",
-											"value": ""
+											"value": "10"
 										},
 										{
 											"key": "search_keyword",
@@ -3853,12 +3823,45 @@
 											"value": ""
 										},
 										{
-											"key": "is_draft",
+											"key": "social_media_id",
 											"value": ""
 										},
 										{
-											"key": "social_media_id",
-											"value": ""
+											"key": "status_array[]",
+											"value": "",
+											"description": "publish",
+											"disabled": true
+										},
+										{
+											"key": "social_media_page_ids[]",
+											"value": "",
+											"description": "1",
+											"disabled": true
+										},
+										{
+											"key": "created_at_start",
+											"value": "",
+											"description": "2024-05-09"
+										},
+										{
+											"key": "created_at_end",
+											"value": "",
+											"description": "2024-05-09"
+										},
+										{
+											"key": "publish_date",
+											"value": "",
+											"description": "2024-05-09"
+										},
+										{
+											"key": "publish_date_start",
+											"value": "",
+											"description": "2024-05-09"
+										},
+										{
+											"key": "publish_date_end",
+											"value": null,
+											"description": "2024-05-09"
 										}
 									]
 								}
@@ -3886,8 +3889,7 @@
 									{
 										"key": "Accept",
 										"value": "application/json",
-										"type": "text",
-										"uuid": "96bc88f4-839c-4a8e-b67a-aa70c953eb98"
+										"type": "text"
 									}
 								],
 								"body": {
@@ -3907,8 +3909,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1",
-											"uuid": "d1559057-9873-4242-b8f2-5bc7f18d4618"
+											"value": "1"
 										}
 									]
 								}
@@ -3961,13 +3962,11 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1",
-											"uuid": "88eb6971-f88b-4d54-82e7-a7297e5b2dd7"
+											"value": "1"
 										},
 										{
 											"key": "file_id",
-											"value": "73",
-											"uuid": "dd7c7362-dc36-489b-bbd6-6f2c34a3abb3"
+											"value": "73"
 										}
 									]
 								}
@@ -4004,13 +4003,11 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1",
-											"uuid": "d33a198d-f42a-4233-bebe-4743de133e2b"
+											"value": "1"
 										},
 										{
 											"key": "file_id",
-											"value": "74",
-											"uuid": "890643e1-5549-4281-b78d-8a9d47a56adf"
+											"value": "74"
 										}
 									]
 								}
@@ -4048,13 +4045,11 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1",
-											"uuid": "ef09e0ff-2eff-4fca-a786-0cb19a5711bf"
+											"value": "1"
 										},
 										{
 											"key": "file_id",
-											"value": "76",
-											"uuid": "76126d49-787f-4790-bba4-524431ffa5df"
+											"value": "76"
 										}
 									]
 								}
@@ -4083,13 +4078,12 @@
 								"header": [
 									{
 										"key": "Accept",
-										"value": "application/json",
-										"uuid": "29362716-2bf5-48c4-b55c-cec7d9fd129d"
+										"value": "application/json"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"title\": \"instagram\",\r\n    \"description\":\"asdfdsdaf\",\r\n    \"status\": \"active\",\r\n    \"note_date\":\"1985-09-25 17:45:30.005\"\r\n}",
+									"raw": "{\r\n    \"title\": \"instagram\",\r\n    \"description\":\"asdfdsdaf\",\r\n    \"status\": \"active\",\r\n    \"note_date\":\"2021-09-25 10:12:30.005\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -4126,8 +4120,7 @@
 								"header": [
 									{
 										"key": "Accept",
-										"value": "application/json",
-										"uuid": "31271abd-9144-4cd4-9852-424073432134"
+										"value": "application/json"
 									}
 								],
 								"body": {
@@ -4152,8 +4145,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1",
-											"uuid": "3205720f-daa8-42ea-a52c-6a1832804ee4"
+											"value": "1"
 										}
 									]
 								}
@@ -4177,8 +4169,7 @@
 								"header": [
 									{
 										"key": "Accept",
-										"value": "application/json",
-										"uuid": "b3500dc4-2cda-40b6-b6cd-efde3eeb8cbe"
+										"value": "application/json"
 									}
 								],
 								"body": {
@@ -4210,8 +4201,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1",
-											"uuid": "afd8d2e3-5d9b-4154-8f89-0f1fa62e372c"
+											"value": "1"
 										}
 									]
 								}
@@ -4235,8 +4225,7 @@
 								"header": [
 									{
 										"key": "Accept",
-										"value": "application/json",
-										"uuid": "acfac21a-bab4-4642-97a9-ece26251bd82"
+										"value": "application/json"
 									}
 								],
 								"body": {
@@ -4256,8 +4245,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1",
-											"uuid": "f5e08c9f-4759-44e1-b00c-651ebb896514"
+											"value": "1"
 										}
 									]
 								}
@@ -4284,8 +4272,7 @@
 								"header": [
 									{
 										"key": "Accept",
-										"value": "application/json",
-										"uuid": "8131e68e-6f05-451d-8f44-c97c9aa88077"
+										"value": "application/json"
 									}
 								],
 								"body": {
@@ -4298,7 +4285,7 @@
 									}
 								},
 								"url": {
-									"raw": "{{url}}/api/note?paginate=&page=&limit=&search_keyword=&status=",
+									"raw": "{{url}}/api/note?paginate=1&page=1&limit=5&search_keyword=&status=&note_date=2021-09-25",
 									"host": [
 										"{{url}}"
 									],
@@ -4309,15 +4296,15 @@
 									"query": [
 										{
 											"key": "paginate",
-											"value": ""
+											"value": "1"
 										},
 										{
 											"key": "page",
-											"value": ""
+											"value": "1"
 										},
 										{
 											"key": "limit",
-											"value": ""
+											"value": "5"
 										},
 										{
 											"key": "search_keyword",
@@ -4326,6 +4313,11 @@
 										{
 											"key": "status",
 											"value": ""
+										},
+										{
+											"key": "note_date",
+											"value": "2021-09-25",
+											"description": "date only"
 										}
 									]
 								}
@@ -4352,8 +4344,7 @@
 								"header": [
 									{
 										"key": "Accept",
-										"value": "application/json",
-										"uuid": "2fd546d5-4c02-4213-b9fe-f7bb74b803e3"
+										"value": "application/json"
 									}
 								],
 								"body": {
@@ -4373,8 +4364,393 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1",
-											"uuid": "1f9f9919-27ea-4be1-92d2-c344ebd9c912"
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Analytics",
+					"item": [
+						{
+							"name": "store",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\": \"instagram\",\r\n    \"description\":\"asdfdsdaf\",\r\n    \"status\": \"active\",\r\n    \"note_date\":\"2021-09-25 10:12:30.005\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/note",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"note"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"_method\": \"PUT\",\r\n    \"title\": \"instagram\",\r\n    \"description\":\"asdfdsdaf\",\r\n    \"status\": \"active\",\r\n    \"note_date\": \"1985-09-25T17:45:30.005\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/note/:id",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"note",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update status",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "_method",
+											"value": "PUT",
+											"type": "text"
+										},
+										{
+											"key": "status",
+											"value": "active",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{url}}/api/note/:id/update-status",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"note",
+										":id",
+										"update-status"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delete",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "{{url}}/api/note/:id",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"note",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/note?paginate=1&page=1&limit=5&search_keyword=&status=&note_date=2021-09-25",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"note"
+									],
+									"query": [
+										{
+											"key": "paginate",
+											"value": "1"
+										},
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "limit",
+											"value": "5"
+										},
+										{
+											"key": "search_keyword",
+											"value": ""
+										},
+										{
+											"key": "status",
+											"value": ""
+										},
+										{
+											"key": "note_date",
+											"value": "2021-09-25",
+											"description": "date only"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "show",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "{{url}}/api/analytics/:social_media_page_id/:post_id",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"analytics",
+										":social_media_page_id",
+										":post_id"
+									],
+									"variable": [
+										{
+											"key": "social_media_page_id",
+											"value": "1"
+										},
+										{
+											"key": "post_id",
+											"value": "36"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET PAGE ANALYTICS",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://graph.facebook.com/113112721370931/insights?metric=page_impressions_unique,page_impressions_paid&access_token=EAANuNuPz88EBO4alAohPKQv1TuprQJkKNZABUDdlhbGyzpj0mGPBtyIChrOmOhq3dZA9sZAmSkZCQZCpPTZC4ZCDmDqXghmBp4cH83NvlVHFwZA4IOfYG6ljEIAPRTZBNG4gFZCTw2JQiLBNUgpUEdEJxT0SQOiRaZBJCAKvvD9bYuethBrAmYjPecciz10UDtln2PtysTXQFOZCZBbTQDUec0gZDZD",
+									"protocol": "https",
+									"host": [
+										"graph",
+										"facebook",
+										"com"
+									],
+									"path": [
+										"113112721370931",
+										"insights"
+									],
+									"query": [
+										{
+											"key": "metric",
+											"value": "page_impressions_unique,page_impressions_paid"
+										},
+										{
+											"key": "access_token",
+											"value": "EAANuNuPz88EBO4alAohPKQv1TuprQJkKNZABUDdlhbGyzpj0mGPBtyIChrOmOhq3dZA9sZAmSkZCQZCpPTZC4ZCDmDqXghmBp4cH83NvlVHFwZA4IOfYG6ljEIAPRTZBNG4gFZCTw2JQiLBNUgpUEdEJxT0SQOiRaZBJCAKvvD9bYuethBrAmYjPecciz10UDtln2PtysTXQFOZCZBbTQDUec0gZDZD"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET POST ANALYTICS",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://graph.facebook.com/113112721370931_428219816591086/insights?metric=post_reactions_like_total,post_reactions_love_total,post_reactions_wow_total,post_engaged_users,page_posts_impressions_unique,page_posts_impressions_paid_unique,page_posts_impressions_organic,post_negative_feedback,post_clicks,post_impressions&access_token=EAANuNuPz88EBO9YQZCj7J21aXHHxpLDDH0Y9nKPlLqQpjuJ9dncsvpJNcQgOspdItVShHmsJ7Udyf6B2eBj2w4qkoCjP8jIATDUwJ2HUTKZCSaM6XEEg52sZAxJhACLULHBuiuvZAO4aD9EQfrTKlqZA6dD4HqvSiZAApcz4bikZBfIl70TrdSZCq0NxXLNiMnxGoqCXGUspYXzTZBLkzWFKS8WgZD&period=lifetime",
+									"protocol": "https",
+									"host": [
+										"graph",
+										"facebook",
+										"com"
+									],
+									"path": [
+										"113112721370931_428219816591086",
+										"insights"
+									],
+									"query": [
+										{
+											"key": "metric",
+											"value": "post_reactions_like_total,post_reactions_love_total,post_reactions_wow_total,post_engaged_users,page_posts_impressions_unique,page_posts_impressions_paid_unique,page_posts_impressions_organic,post_negative_feedback,post_clicks,post_impressions"
+										},
+										{
+											"key": "access_token",
+											"value": "EAANuNuPz88EBO9YQZCj7J21aXHHxpLDDH0Y9nKPlLqQpjuJ9dncsvpJNcQgOspdItVShHmsJ7Udyf6B2eBj2w4qkoCjP8jIATDUwJ2HUTKZCSaM6XEEg52sZAxJhACLULHBuiuvZAO4aD9EQfrTKlqZA6dD4HqvSiZAApcz4bikZBfIl70TrdSZCq0NxXLNiMnxGoqCXGUspYXzTZBLkzWFKS8WgZD"
+										},
+										{
+											"key": "period",
+											"value": "lifetime"
 										}
 									]
 								}

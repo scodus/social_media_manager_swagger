@@ -27,7 +27,7 @@ components:
       type: http
       scheme: bearer
 tags:
-  - name: social media connect
+  - name: social media connect TEST
   - name: Superadmin
   - name: Superadmin > Authentication
   - name: Superadmin > Permission
@@ -42,12 +42,13 @@ tags:
   - name: General > Social Media
   - name: General > Post
   - name: General > Note
-  - name: General > Analytics
+  - name: General > Social Media Page Analytics
+  - name: General > Social Media Page Post Analytics
 paths:
   /oauth/access_token:
     post:
       tags:
-        - social media connect
+        - social media connect TEST
       summary: get meta access token
       requestBody:
         content: {}
@@ -75,7 +76,7 @@ paths:
   /v19.0/2600212316820631/accounts:
     get:
       tags:
-        - social media connect
+        - social media connect TEST
       summary: get page id name
       parameters:
         - name: access_token
@@ -92,7 +93,7 @@ paths:
   /v19.0/415840332336349/feed:
     post:
       tags:
-        - social media connect
+        - social media connect TEST
       summary: create post
       requestBody:
         content:
@@ -120,7 +121,7 @@ paths:
   /v19.0/2600212316820631/feed:
     get:
       tags:
-        - social media connect
+        - social media connect TEST
       summary: Get page feeds
       parameters:
         - name: access_token
@@ -136,7 +137,7 @@ paths:
   /v19.0/415840332336349/photos:
     post:
       tags:
-        - social media connect
+        - social media connect TEST
       summary: Post with images
       requestBody:
         content:
@@ -169,7 +170,7 @@ paths:
   /v19.0/415840332336349_710649527902275:
     post:
       tags:
-        - social media connect
+        - social media connect TEST
       summary: New Request
       requestBody:
         content:
@@ -195,7 +196,7 @@ paths:
   /v19.0/101383725810030:
     get:
       tags:
-        - social media connect
+        - social media connect TEST
       summary: GET INSTA BUSINESS ACCOUNT USING PAGE ID
       parameters:
         - name: fields
@@ -216,7 +217,7 @@ paths:
   /v19.0/17841451743265053/media:
     post:
       tags:
-        - social media connect
+        - social media connect TEST
       summary: first step post instagram collection
       requestBody:
         content: {}
@@ -250,7 +251,7 @@ paths:
   /v19.0/17841451743265053/media_publish:
     post:
       tags:
-        - social media connect
+        - social media connect TEST
       summary: last step publish the collection
       requestBody:
         content: {}
@@ -265,6 +266,118 @@ paths:
           schema:
             type: string
           example: '{{access_token}}'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /103476307960477/insights:
+    get:
+      tags:
+        - social media connect TEST
+      summary: GET PAGE ANALYTICS
+      parameters:
+        - name: metric
+          in: query
+          schema:
+            type: string
+          example: >-
+            page_impressions_unique,page_impressions_paid,page_total_actions,page_post_engagements,page_daily_follows,page_follows,page_impressions
+        - name: access_token
+          in: query
+          schema:
+            type: string
+          example: >-
+            EAANuNuPz88EBOwQm1rBogymzCH37paiyIBFdlXQoTNnqdn1gS9bWtuZBDjDeB4QGmYAJgHE1AZAxH3ZCRoDpXiRUr6lsZAPIdczOaJ97ZB5llsm8GItXwDd9dWe2BUbekGxnomBEF3VTNKfyJIjcbtDZCTwcyG3r4Mq6OjgyYLGQkrsAZAvml4EeHOgScZAQQLUZD
+        - name: period
+          in: query
+          schema:
+            type: string
+          example: month
+        - name: since
+          in: query
+          schema:
+            type: integer
+          example: '1711908900'
+        - name: until
+          in: query
+          schema:
+            type: integer
+          example: '1717041695'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /insights:
+    get:
+      tags:
+        - social media connect TEST
+      summary: GET POST ANALYTICS
+      parameters:
+        - name: metric
+          in: query
+          schema:
+            type: string
+          example: >-
+            post_reactions_like_total,post_reactions_love_total,post_reactions_wow_total
+        - name: access_token
+          in: query
+          schema:
+            type: string
+          example: '{page-access-token}'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /{post_id}/insights:
+    get:
+      tags:
+        - social media connect TEST
+      summary: Get post analytics
+      parameters:
+        - name: metric
+          in: query
+          schema:
+            type: string
+          example: >-
+            post_reactions_like_total,post_reactions_love_total,post_reactions_wow_total,page_posts_impressions,post_engaged_users
+        - name: access_token
+          in: query
+          schema:
+            type: string
+          example: >-
+            EAANuNuPz88EBO65DI4GmZB5xdTJS4WGqDPMyZC0HtZBqzceZABZB3ZAGHyY5EIKqhx8VjkbFR52OSkuZAcdZCCrMfAAQYMwZALLLp2rJzrkZBwvGHJ7A3mSY28waIp0M4ZC7jDBUtJV8tMbA1yWf2wIqRwvbZAHourZCaJLRwNV5W6r5ZCDy2YqZBCKLrI6K5nkWCZBt2H8ZD
+        - name: post_id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: '103476307960477_449209254286963'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /v19.0/{post_id}/comments:
+    get:
+      tags:
+        - social media connect TEST
+      summary: Get post comments analytics
+      parameters:
+        - name: access_token
+          in: query
+          schema:
+            type: string
+          example: >-
+            EAANuNuPz88EBO65DI4GmZB5xdTJS4WGqDPMyZC0HtZBqzceZABZB3ZAGHyY5EIKqhx8VjkbFR52OSkuZAcdZCCrMfAAQYMwZALLLp2rJzrkZBwvGHJ7A3mSY28waIp0M4ZC7jDBUtJV8tMbA1yWf2wIqRwvbZAHourZCaJLRwNV5W6r5ZCDy2YqZBCKLrI6K5nkWCZBt2H8ZD
+        - name: post_id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: '103476307960477_449209254286963'
       responses:
         '200':
           description: Successful response
@@ -1918,7 +2031,7 @@ paths:
     post:
       tags:
         - General > Social Media
-      summary: update or create
+      summary: update or create (USE THIS)
       requestBody:
         content:
           application/json:
@@ -1927,7 +2040,7 @@ paths:
               example:
                 type: facebook
                 access_token: >-
-                  EAANuNuPz88EBOZCFWNQB6NnLZABPUNqf4PTBMJTZBLfur1HIJdF5WjoLHb9fAuAZARZCFp7gViL78JRpU1QseoZBBxStoWIfQmMCZCuuhEFL0pY1ud7QN7jWZAlPUmYbXiYdlE6UFy7xvLZCJK47twKk7zZAC5zEVvXf3SDF44FMfGDXZCFpbakEuC9SZB13KhIoeZA4WBZBsM6WzdtLZBUkkKwrwZDZD
+                  EAANuNuPz88EBO6FJjTjDJTtZAdLGOUzCEeBf3700foHw8AOZBmsc7NxcQYZBVoGjYJwewdCbtXkgogSVFrpaU1UTbFw4P5AFnqO6SAfwsRGtE55PsShcNeBLZAWwIAt5stmYRJ6NGjYqBbC5b943iqvFuFN3Nd3lZB1MFJ6kdUJBqean3sNvJOVF5ZAReZAzu9yTTDck4TvuCsFdIFttQUZD
                 userID: '2600831653425364'
                 data:
                   userID: '2600831653425364'
@@ -2027,11 +2140,11 @@ paths:
                 status:
                   type: string
                   description: draft|publish|schedule
-                  example: publish
+                  example: schedule
                 publish_date:
                   type: string
                   description: datetime||required_if:publish_now,false,0
-                  example: '2024-05-10 12:20:00'
+                  example: '2024-05-14 15:15:00'
                 social_media_array[0][id]:
                   type: integer
                   example: '1'
@@ -2050,9 +2163,6 @@ paths:
                 social_media_array[1][social_media_page_ids][1]:
                   type: integer
                   example: '2'
-                attachments[]:
-                  type: string
-                  format: binary
                 social_media_array[1][]:
                   type: integer
                   example: '2'
@@ -2062,6 +2172,9 @@ paths:
                 link:
                   type: string
                   example: https://developers.facebook.com/docs/graph-api#graph-api
+                attachments[]:
+                  type: string
+                  format: binary
       security:
         - bearerAuth: []
       parameters:
@@ -2160,20 +2273,37 @@ paths:
                   example: patch
                 title:
                   type: string
-                  example: post 100000
+                  example: test1
+                is_draft:
+                  type: boolean
+                  example: 'false'
+                publish_now:
+                  type: boolean
+                  example: 'true'
                 status:
                   type: string
+                  example: publish
                 publish_date:
                   type: string
-                social_media_array[1][]:
-                  type: integer
-                  example: '2'
-                social_media_array[2][]:
+                  example: '2024-05-14 15:48:00'
+                social_media_array[0][id]:
                   type: integer
                   example: '1'
+                social_media_array[0][social_media_page_ids][0]:
+                  type: integer
+                  example: '1'
+                social_media_array[0][social_media_page_ids][1]:
+                  type: integer
+                  example: '2'
                 attachments[]:
                   type: string
                   format: binary
+                social_media_array[1][social_media_page_ids][1]:
+                  type: integer
+                  example: '3'
+                social_media_array[1][id]:
+                  type: integer
+                  example: '2'
       security:
         - bearerAuth: []
       parameters:
@@ -2187,7 +2317,7 @@ paths:
           schema:
             type: integer
           required: true
-          example: '6'
+          example: '70'
       responses:
         '200':
           description: Successful response
@@ -2365,7 +2495,7 @@ paths:
   /api/note:
     post:
       tags:
-        - General > Analytics
+        - General > Note
       summary: store
       requestBody:
         content:
@@ -2392,7 +2522,7 @@ paths:
             application/json: {}
     get:
       tags:
-        - General > Analytics
+        - General > Note
       summary: list
       security:
         - bearerAuth: []
@@ -2439,7 +2569,7 @@ paths:
   /api/note/{id}:
     post:
       tags:
-        - General > Analytics
+        - General > Note
       summary: update
       requestBody:
         content:
@@ -2473,7 +2603,7 @@ paths:
             application/json: {}
     delete:
       tags:
-        - General > Analytics
+        - General > Note
       summary: delete
       security:
         - bearerAuth: []
@@ -2520,7 +2650,7 @@ paths:
   /api/note/{id}/update-status:
     post:
       tags:
-        - General > Analytics
+        - General > Note
       summary: update status
       requestBody:
         content:
@@ -2553,11 +2683,11 @@ paths:
           description: Successful response
           content:
             application/json: {}
-  /api/analytics/{social_media_page_id}/{post_id}:
+  /api/social-media-page-analytics-list:
     get:
       tags:
-        - General > Analytics
-      summary: show
+        - General > Social Media Page Analytics
+      summary: social media page analytics
       security:
         - bearerAuth: []
       parameters:
@@ -2567,67 +2697,63 @@ paths:
             type: string
           example: application/json
         - name: social_media_page_id
-          in: path
+          in: query
           schema:
             type: integer
-          required: true
           example: '1'
-        - name: post_id
-          in: path
+        - name: period
+          in: query
+          schema:
+            type: string
+          example: month
+        - name: since
+          in: query
+          schema:
+            type: string
+          example: '2024-05-01'
+        - name: until
+          in: query
+          schema:
+            type: string
+          example: '2024-05-31'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /api/social-media-page-post-analytics-list:
+    get:
+      tags:
+        - General > Social Media Page Post Analytics
+      summary: social media page post analytics
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: application/json
+        - name: social_media_page_post_id
+          in: query
           schema:
             type: integer
-          required: true
-          example: '36'
-      responses:
-        '200':
-          description: Successful response
-          content:
-            application/json: {}
-  /113112721370931/insights:
-    get:
-      tags:
-        - General > Analytics
-      summary: GET PAGE ANALYTICS
-      parameters:
-        - name: metric
-          in: query
-          schema:
-            type: string
-          example: page_impressions_unique,page_impressions_paid
-        - name: access_token
-          in: query
-          schema:
-            type: string
-          example: >-
-            EAANuNuPz88EBO4alAohPKQv1TuprQJkKNZABUDdlhbGyzpj0mGPBtyIChrOmOhq3dZA9sZAmSkZCQZCpPTZC4ZCDmDqXghmBp4cH83NvlVHFwZA4IOfYG6ljEIAPRTZBNG4gFZCTw2JQiLBNUgpUEdEJxT0SQOiRaZBJCAKvvD9bYuethBrAmYjPecciz10UDtln2PtysTXQFOZCZBbTQDUec0gZDZD
-      responses:
-        '200':
-          description: Successful response
-          content:
-            application/json: {}
-  /113112721370931_428219816591086/insights:
-    get:
-      tags:
-        - General > Analytics
-      summary: GET POST ANALYTICS
-      parameters:
-        - name: metric
-          in: query
-          schema:
-            type: string
-          example: >-
-            post_reactions_like_total,post_reactions_love_total,post_reactions_wow_total,post_engaged_users,page_posts_impressions_unique,page_posts_impressions_paid_unique,page_posts_impressions_organic,post_negative_feedback,post_clicks,post_impressions
-        - name: access_token
-          in: query
-          schema:
-            type: string
-          example: >-
-            EAANuNuPz88EBO9YQZCj7J21aXHHxpLDDH0Y9nKPlLqQpjuJ9dncsvpJNcQgOspdItVShHmsJ7Udyf6B2eBj2w4qkoCjP8jIATDUwJ2HUTKZCSaM6XEEg52sZAxJhACLULHBuiuvZAO4aD9EQfrTKlqZA6dD4HqvSiZAApcz4bikZBfIl70TrdSZCq0NxXLNiMnxGoqCXGUspYXzTZBLkzWFKS8WgZD
+          example: '37'
         - name: period
           in: query
           schema:
             type: string
           example: lifetime
+        - name: since
+          in: query
+          schema:
+            type: string
+          example: '2024-04-01'
+        - name: until
+          in: query
+          schema:
+            type: string
+          example: '2024-04-30'
       responses:
         '200':
           description: Successful response

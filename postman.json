@@ -8,7 +8,7 @@
 	},
 	"item": [
 		{
-			"name": "social media connect",
+			"name": "social media connect TEST",
 			"item": [
 				{
 					"name": "get meta access token",
@@ -358,6 +358,175 @@
 								{
 									"key": "access_token",
 									"value": "{{access_token}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET PAGE ANALYTICS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://graph.facebook.com/103476307960477/insights?metric=page_impressions_unique,page_impressions_paid,page_total_actions,page_post_engagements,page_daily_follows,page_follows,page_impressions&access_token=EAANuNuPz88EBOwQm1rBogymzCH37paiyIBFdlXQoTNnqdn1gS9bWtuZBDjDeB4QGmYAJgHE1AZAxH3ZCRoDpXiRUr6lsZAPIdczOaJ97ZB5llsm8GItXwDd9dWe2BUbekGxnomBEF3VTNKfyJIjcbtDZCTwcyG3r4Mq6OjgyYLGQkrsAZAvml4EeHOgScZAQQLUZD&period=month&since=1711908900&until=1717041695",
+							"protocol": "https",
+							"host": [
+								"graph",
+								"facebook",
+								"com"
+							],
+							"path": [
+								"103476307960477",
+								"insights"
+							],
+							"query": [
+								{
+									"key": "metric",
+									"value": "page_impressions_unique,page_impressions_paid,page_total_actions,page_post_engagements,page_daily_follows,page_follows,page_impressions"
+								},
+								{
+									"key": "access_token",
+									"value": "EAANuNuPz88EBOwQm1rBogymzCH37paiyIBFdlXQoTNnqdn1gS9bWtuZBDjDeB4QGmYAJgHE1AZAxH3ZCRoDpXiRUr6lsZAPIdczOaJ97ZB5llsm8GItXwDd9dWe2BUbekGxnomBEF3VTNKfyJIjcbtDZCTwcyG3r4Mq6OjgyYLGQkrsAZAvml4EeHOgScZAQQLUZD"
+								},
+								{
+									"key": "period",
+									"value": "month"
+								},
+								{
+									"key": "since",
+									"value": "1711908900"
+								},
+								{
+									"key": "until",
+									"value": "1717041695"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET POST ANALYTICS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://graph.facebook.com{page-post-id}/insights?metric=post_reactions_like_total,post_reactions_love_total,post_reactions_wow_total&access_token={page-access-token}",
+							"protocol": "https",
+							"host": [
+								"graph",
+								"facebook",
+								"com{page-post-id}"
+							],
+							"path": [
+								"insights"
+							],
+							"query": [
+								{
+									"key": "metric",
+									"value": "post_reactions_like_total,post_reactions_love_total,post_reactions_wow_total"
+								},
+								{
+									"key": "access_token",
+									"value": "{page-access-token}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get post analytics",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://graph.facebook.com/:post_id/insights?metric=post_reactions_like_total,post_reactions_love_total,post_reactions_wow_total,page_posts_impressions,post_engaged_users&access_token=EAANuNuPz88EBO65DI4GmZB5xdTJS4WGqDPMyZC0HtZBqzceZABZB3ZAGHyY5EIKqhx8VjkbFR52OSkuZAcdZCCrMfAAQYMwZALLLp2rJzrkZBwvGHJ7A3mSY28waIp0M4ZC7jDBUtJV8tMbA1yWf2wIqRwvbZAHourZCaJLRwNV5W6r5ZCDy2YqZBCKLrI6K5nkWCZBt2H8ZD",
+							"protocol": "https",
+							"host": [
+								"graph",
+								"facebook",
+								"com"
+							],
+							"path": [
+								":post_id",
+								"insights"
+							],
+							"query": [
+								{
+									"key": "metric",
+									"value": "post_reactions_like_total,post_reactions_love_total,post_reactions_wow_total,page_posts_impressions,post_engaged_users"
+								},
+								{
+									"key": "access_token",
+									"value": "EAANuNuPz88EBO65DI4GmZB5xdTJS4WGqDPMyZC0HtZBqzceZABZB3ZAGHyY5EIKqhx8VjkbFR52OSkuZAcdZCCrMfAAQYMwZALLLp2rJzrkZBwvGHJ7A3mSY28waIp0M4ZC7jDBUtJV8tMbA1yWf2wIqRwvbZAHourZCaJLRwNV5W6r5ZCDy2YqZBCKLrI6K5nkWCZBt2H8ZD"
+								},
+								{
+									"key": "since",
+									"value": "1713315778",
+									"disabled": true
+								},
+								{
+									"key": "until",
+									"value": "1715928478",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "post_id",
+									"value": "103476307960477_449209254286963"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get post comments analytics",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://graph.facebook.com/v19.0/:post_id/comments?access_token=EAANuNuPz88EBO65DI4GmZB5xdTJS4WGqDPMyZC0HtZBqzceZABZB3ZAGHyY5EIKqhx8VjkbFR52OSkuZAcdZCCrMfAAQYMwZALLLp2rJzrkZBwvGHJ7A3mSY28waIp0M4ZC7jDBUtJV8tMbA1yWf2wIqRwvbZAHourZCaJLRwNV5W6r5ZCDy2YqZBCKLrI6K5nkWCZBt2H8ZD",
+							"protocol": "https",
+							"host": [
+								"graph",
+								"facebook",
+								"com"
+							],
+							"path": [
+								"v19.0",
+								":post_id",
+								"comments"
+							],
+							"query": [
+								{
+									"key": "metric",
+									"value": "post_reactions_like_total,post_reactions_love_total,post_reactions_wow_total,page_posts_impressions,post_engaged_users",
+									"disabled": true
+								},
+								{
+									"key": "access_token",
+									"value": "EAANuNuPz88EBO65DI4GmZB5xdTJS4WGqDPMyZC0HtZBqzceZABZB3ZAGHyY5EIKqhx8VjkbFR52OSkuZAcdZCCrMfAAQYMwZALLLp2rJzrkZBwvGHJ7A3mSY28waIp0M4ZC7jDBUtJV8tMbA1yWf2wIqRwvbZAHourZCaJLRwNV5W6r5ZCDy2YqZBCKLrI6K5nkWCZBt2H8ZD"
+								},
+								{
+									"key": "since",
+									"value": "1713315778",
+									"disabled": true
+								},
+								{
+									"key": "until",
+									"value": "1715928478",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "post_id",
+									"value": "103476307960477_449209254286963"
 								}
 							]
 						}
@@ -3173,7 +3342,7 @@
 							"response": []
 						},
 						{
-							"name": "update or create",
+							"name": "update or create (USE THIS)",
 							"request": {
 								"auth": {
 									"type": "bearer",
@@ -3194,7 +3363,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"type\": \"facebook\",\r\n    \"access_token\": \"EAANuNuPz88EBOZCFWNQB6NnLZABPUNqf4PTBMJTZBLfur1HIJdF5WjoLHb9fAuAZARZCFp7gViL78JRpU1QseoZBBxStoWIfQmMCZCuuhEFL0pY1ud7QN7jWZAlPUmYbXiYdlE6UFy7xvLZCJK47twKk7zZAC5zEVvXf3SDF44FMfGDXZCFpbakEuC9SZB13KhIoeZA4WBZBsM6WzdtLZBUkkKwrwZDZD\",\r\n    \"userID\":\"2600831653425364\",\r\n    \"data\":  {\r\n        \"userID\": \"2600831653425364\",\r\n        \"expiresIn\": 6276,\r\n        \"accessToken\": \"EAANuNuPz88EBOZCecofdnSuJaBwlRIb6eeX2UVatO3a7ELEEhNznHL2RXU0k9QV8WGkeCAtw5kpF1rZC8CZAR6KwmYcmnOvasiF5IkNO5MdTEqZBt5icUBnOdmdwo3K2jrYmZCzQ8A6DyLRVUzGZBMWbMUv5m8m4zcPAdmKDm1wi0pzhLqd2gZCI59T0O6NmOOnzjwZBiQPxJYmEmJ9QBwZDZD\",\r\n        \"signedRequest\": \"tyCf8yg9VhxXA9iROXyInC2R92ckkAbW-dBJJy0iSbQ.eyJ1c2VyX2lkIjoiMjYwMDgzMTY1MzQyNTM2NCIsImNvZGUiOiJBUUJ1VDk0NUpuQWRPNTR4Nmp6bDV4S085amp0c19kRkdDUHNCa0xpU2gzQmM0NTJPZnJKblVGNUp6TkxVMUlRQ3hyTGNMdmJ1VEF4ZUpVWkRhanFkX29KaHRJakRwVFdFbFlUMEVfUlhCX1d6VEJKRXg2dmljSDRYaU95NzJHQm5HTDZFS01FWXpGRmZwX2VmYkZfbGhnS3VVWlVuT3JMTWdiVHl0MkMxb29aS1dBd0YybVRYcExPeEpVTlY5WUZRb1Bja1N4bUdIVEx0LVpZZjhmTlczLVZFNTdaWlVkNnQ0UEVFY1RyZnZFeVlsNmE5VkN5TUU1MlA5NGNIdHNDTUJ0alM3NjJPQlBrN1dsOGZJMm1fT240MG5McjZsSmVPanlDR0Q1OEM5dzMyRHdXOUI4eVBxWUdpWEhZUDVPWWZ3ZzRieVNibEtQekpBNE9IUlZJaE1YTXhZci0xQzY0WEpWRnh6R2VUYzh5OGFqazFmRjV4NWdqMFllUjREX3BUR2ciLCJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImlzc3VlZF9hdCI6MTcxNDcxNjkyNH0\",\r\n        \"graphDomain\": \"facebook\",\r\n        \"grantedScopes\": \"pages_show_list,instagram_basic,instagram_content_publish,pages_read_engagement,pages_manage_posts\",\r\n        \"data_access_expiration_time\": 1722492924,\r\n        \"id\": \"2600831653425364\",\r\n        \"first_name\": \"Saurav\",\r\n        \"last_name\": \"Ghimire\",\r\n        \"name\": \"Saurav Ghimire\",\r\n        \"name_format\": \"{first} {last}\",\r\n        \"picture\": {\r\n            \"data\": {\r\n                \"height\": 50,\r\n                \"is_silhouette\": false,\r\n                \"url\": \"https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=2600831653425364&height=50&width=50&ext=1717308925&hash=Abb7G-NHcapOzbBhOwo95LyL\",\r\n                \"width\": 50\r\n            }\r\n        },\r\n        \"short_name\": \"Saurav\"\r\n    }\r\n}",
+									"raw": "{\r\n    \"type\": \"facebook\",\r\n    \"access_token\": \"EAANuNuPz88EBO6FJjTjDJTtZAdLGOUzCEeBf3700foHw8AOZBmsc7NxcQYZBVoGjYJwewdCbtXkgogSVFrpaU1UTbFw4P5AFnqO6SAfwsRGtE55PsShcNeBLZAWwIAt5stmYRJ6NGjYqBbC5b943iqvFuFN3Nd3lZB1MFJ6kdUJBqean3sNvJOVF5ZAReZAzu9yTTDck4TvuCsFdIFttQUZD\",\r\n    \"userID\":\"2600831653425364\",\r\n    \"data\":  {\r\n        \"userID\": \"2600831653425364\",\r\n        \"expiresIn\": 6276,\r\n        \"accessToken\": \"EAANuNuPz88EBOZCecofdnSuJaBwlRIb6eeX2UVatO3a7ELEEhNznHL2RXU0k9QV8WGkeCAtw5kpF1rZC8CZAR6KwmYcmnOvasiF5IkNO5MdTEqZBt5icUBnOdmdwo3K2jrYmZCzQ8A6DyLRVUzGZBMWbMUv5m8m4zcPAdmKDm1wi0pzhLqd2gZCI59T0O6NmOOnzjwZBiQPxJYmEmJ9QBwZDZD\",\r\n        \"signedRequest\": \"tyCf8yg9VhxXA9iROXyInC2R92ckkAbW-dBJJy0iSbQ.eyJ1c2VyX2lkIjoiMjYwMDgzMTY1MzQyNTM2NCIsImNvZGUiOiJBUUJ1VDk0NUpuQWRPNTR4Nmp6bDV4S085amp0c19kRkdDUHNCa0xpU2gzQmM0NTJPZnJKblVGNUp6TkxVMUlRQ3hyTGNMdmJ1VEF4ZUpVWkRhanFkX29KaHRJakRwVFdFbFlUMEVfUlhCX1d6VEJKRXg2dmljSDRYaU95NzJHQm5HTDZFS01FWXpGRmZwX2VmYkZfbGhnS3VVWlVuT3JMTWdiVHl0MkMxb29aS1dBd0YybVRYcExPeEpVTlY5WUZRb1Bja1N4bUdIVEx0LVpZZjhmTlczLVZFNTdaWlVkNnQ0UEVFY1RyZnZFeVlsNmE5VkN5TUU1MlA5NGNIdHNDTUJ0alM3NjJPQlBrN1dsOGZJMm1fT240MG5McjZsSmVPanlDR0Q1OEM5dzMyRHdXOUI4eVBxWUdpWEhZUDVPWWZ3ZzRieVNibEtQekpBNE9IUlZJaE1YTXhZci0xQzY0WEpWRnh6R2VUYzh5OGFqazFmRjV4NWdqMFllUjREX3BUR2ciLCJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImlzc3VlZF9hdCI6MTcxNDcxNjkyNH0\",\r\n        \"graphDomain\": \"facebook\",\r\n        \"grantedScopes\": \"pages_show_list,instagram_basic,instagram_content_publish,pages_read_engagement,pages_manage_posts\",\r\n        \"data_access_expiration_time\": 1722492924,\r\n        \"id\": \"2600831653425364\",\r\n        \"first_name\": \"Saurav\",\r\n        \"last_name\": \"Ghimire\",\r\n        \"name\": \"Saurav Ghimire\",\r\n        \"name_format\": \"{first} {last}\",\r\n        \"picture\": {\r\n            \"data\": {\r\n                \"height\": 50,\r\n                \"is_silhouette\": false,\r\n                \"url\": \"https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=2600831653425364&height=50&width=50&ext=1717308925&hash=Abb7G-NHcapOzbBhOwo95LyL\",\r\n                \"width\": 50\r\n            }\r\n        },\r\n        \"short_name\": \"Saurav\"\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -3482,13 +3651,13 @@
 										},
 										{
 											"key": "status",
-											"value": "publish",
+											"value": "schedule",
 											"description": "draft|publish|schedule",
 											"type": "text"
 										},
 										{
 											"key": "publish_date",
-											"value": "2024-05-10 12:20:00",
+											"value": "2024-05-14 15:15:00",
 											"description": "datetime||required_if:publish_now,false,0",
 											"type": "text"
 										},
@@ -3526,11 +3695,6 @@
 											"disabled": true
 										},
 										{
-											"key": "attachments[]",
-											"type": "file",
-											"src": "/C:/Users/Scodus/Downloads/logoB.jpg"
-										},
-										{
 											"key": "social_media_array[1][]",
 											"value": "1",
 											"type": "text",
@@ -3553,6 +3717,11 @@
 											"value": "https://developers.facebook.com/docs/graph-api#graph-api",
 											"type": "text",
 											"disabled": true
+										},
+										{
+											"key": "attachments[]",
+											"type": "file",
+											"src": "/C:/Users/Scodus/Downloads/logoB.jpg"
 										}
 									]
 								},
@@ -3599,44 +3768,60 @@
 										},
 										{
 											"key": "title",
-											"value": "post 100000",
+											"value": "test1",
 											"type": "text"
 										},
 										{
-											"key": "status",
-											"value": "",
-											"type": "text"
-										},
-										{
-											"key": "publish_date",
-											"value": "",
-											"type": "text"
-										},
-										{
-											"key": "social_media_array[1][]",
-											"value": "1",
-											"type": "text"
-										},
-										{
-											"key": "social_media_array[1][]",
-											"value": "2",
-											"type": "text"
-										},
-										{
-											"key": "social_media_array[2][]",
-											"value": "1",
+											"key": "is_draft",
+											"value": "false",
 											"type": "text",
 											"disabled": true
 										},
 										{
-											"key": "attachments[]",
-											"type": "file",
-											"src": []
+											"key": "publish_now",
+											"value": "true",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "publish",
+											"type": "text"
+										},
+										{
+											"key": "publish_date",
+											"value": "2024-05-14 15:48:00",
+											"type": "text"
+										},
+										{
+											"key": "social_media_array[0][id]",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "social_media_array[0][social_media_page_ids][0]",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "social_media_array[0][social_media_page_ids][1]",
+											"value": "2",
+											"type": "text"
 										},
 										{
 											"key": "attachments[]",
 											"type": "file",
-											"src": []
+											"src": "/C:/Users/Scodus/Downloads/logoB.jpg"
+										},
+										{
+											"key": "social_media_array[1][social_media_page_ids][1]",
+											"value": "3",
+											"type": "text"
+										},
+										{
+											"key": "social_media_array[1][id]",
+											"value": "2",
+											"type": "text"
 										}
 									]
 								},
@@ -3653,7 +3838,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "6"
+											"value": "70"
 										}
 									]
 								}
@@ -4374,201 +4559,10 @@
 					]
 				},
 				{
-					"name": "Analytics",
+					"name": "Social Media Page Analytics",
 					"item": [
 						{
-							"name": "store",
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": [
-										{
-											"key": "token",
-											"value": "{{access_token}}",
-											"type": "string"
-										}
-									]
-								},
-								"method": "POST",
-								"header": [
-									{
-										"key": "Accept",
-										"value": "application/json"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"title\": \"instagram\",\r\n    \"description\":\"asdfdsdaf\",\r\n    \"status\": \"active\",\r\n    \"note_date\":\"2021-09-25 10:12:30.005\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{url}}/api/note",
-									"host": [
-										"{{url}}"
-									],
-									"path": [
-										"api",
-										"note"
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "update",
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": [
-										{
-											"key": "token",
-											"value": "{{access_token}}",
-											"type": "string"
-										}
-									]
-								},
-								"method": "POST",
-								"header": [
-									{
-										"key": "Accept",
-										"value": "application/json"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"_method\": \"PUT\",\r\n    \"title\": \"instagram\",\r\n    \"description\":\"asdfdsdaf\",\r\n    \"status\": \"active\",\r\n    \"note_date\": \"1985-09-25T17:45:30.005\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{url}}/api/note/:id",
-									"host": [
-										"{{url}}"
-									],
-									"path": [
-										"api",
-										"note",
-										":id"
-									],
-									"variable": [
-										{
-											"key": "id",
-											"value": "1"
-										}
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "update status",
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": [
-										{
-											"key": "token",
-											"value": "{{access_token}}",
-											"type": "string"
-										}
-									]
-								},
-								"method": "POST",
-								"header": [
-									{
-										"key": "Accept",
-										"value": "application/json"
-									}
-								],
-								"body": {
-									"mode": "formdata",
-									"formdata": [
-										{
-											"key": "_method",
-											"value": "PUT",
-											"type": "text"
-										},
-										{
-											"key": "status",
-											"value": "active",
-											"type": "text"
-										}
-									]
-								},
-								"url": {
-									"raw": "{{url}}/api/note/:id/update-status",
-									"host": [
-										"{{url}}"
-									],
-									"path": [
-										"api",
-										"note",
-										":id",
-										"update-status"
-									],
-									"variable": [
-										{
-											"key": "id",
-											"value": "1"
-										}
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "delete",
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": [
-										{
-											"key": "token",
-											"value": "{{access_token}}",
-											"type": "string"
-										}
-									]
-								},
-								"method": "DELETE",
-								"header": [
-									{
-										"key": "Accept",
-										"value": "application/json"
-									}
-								],
-								"body": {
-									"mode": "formdata",
-									"formdata": []
-								},
-								"url": {
-									"raw": "{{url}}/api/note/:id",
-									"host": [
-										"{{url}}"
-									],
-									"path": [
-										"api",
-										"note",
-										":id"
-									],
-									"variable": [
-										{
-											"key": "id",
-											"value": "1"
-										}
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "list",
+							"name": "social media page analytics",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4591,166 +4585,107 @@
 									}
 								],
 								"body": {
-									"mode": "raw",
-									"raw": "",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
+									"mode": "formdata",
+									"formdata": []
 								},
 								"url": {
-									"raw": "{{url}}/api/note?paginate=1&page=1&limit=5&search_keyword=&status=&note_date=2021-09-25",
+									"raw": "{{url}}/api/social-media-page-analytics-list?social_media_page_id=1&period=month&since=2024-05-01&until=2024-05-31",
 									"host": [
 										"{{url}}"
 									],
 									"path": [
 										"api",
-										"note"
+										"social-media-page-analytics-list"
 									],
 									"query": [
-										{
-											"key": "paginate",
-											"value": "1"
-										},
-										{
-											"key": "page",
-											"value": "1"
-										},
-										{
-											"key": "limit",
-											"value": "5"
-										},
-										{
-											"key": "search_keyword",
-											"value": ""
-										},
-										{
-											"key": "status",
-											"value": ""
-										},
-										{
-											"key": "note_date",
-											"value": "2021-09-25",
-											"description": "date only"
-										}
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "show",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": [
-										{
-											"key": "token",
-											"value": "{{access_token}}",
-											"type": "string"
-										}
-									]
-								},
-								"method": "GET",
-								"header": [
-									{
-										"key": "Accept",
-										"value": "application/json"
-									}
-								],
-								"body": {
-									"mode": "formdata",
-									"formdata": []
-								},
-								"url": {
-									"raw": "{{url}}/api/analytics/:social_media_page_id/:post_id",
-									"host": [
-										"{{url}}"
-									],
-									"path": [
-										"api",
-										"analytics",
-										":social_media_page_id",
-										":post_id"
-									],
-									"variable": [
 										{
 											"key": "social_media_page_id",
 											"value": "1"
 										},
 										{
-											"key": "post_id",
-											"value": "36"
+											"key": "period",
+											"value": "month"
+										},
+										{
+											"key": "since",
+											"value": "2024-05-01"
+										},
+										{
+											"key": "until",
+											"value": "2024-05-31"
+										},
+										{
+											"key": "metric",
+											"value": null,
+											"disabled": true
 										}
 									]
 								}
 							},
 							"response": []
-						},
+						}
+					]
+				},
+				{
+					"name": "Social Media Page Post Analytics",
+					"item": [
 						{
-							"name": "GET PAGE ANALYTICS",
+							"name": "social media page post analytics",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
 							"request": {
-								"method": "GET",
-								"header": [],
-								"url": {
-									"raw": "https://graph.facebook.com/113112721370931/insights?metric=page_impressions_unique,page_impressions_paid&access_token=EAANuNuPz88EBO4alAohPKQv1TuprQJkKNZABUDdlhbGyzpj0mGPBtyIChrOmOhq3dZA9sZAmSkZCQZCpPTZC4ZCDmDqXghmBp4cH83NvlVHFwZA4IOfYG6ljEIAPRTZBNG4gFZCTw2JQiLBNUgpUEdEJxT0SQOiRaZBJCAKvvD9bYuethBrAmYjPecciz10UDtln2PtysTXQFOZCZBbTQDUec0gZDZD",
-									"protocol": "https",
-									"host": [
-										"graph",
-										"facebook",
-										"com"
-									],
-									"path": [
-										"113112721370931",
-										"insights"
-									],
-									"query": [
+								"auth": {
+									"type": "bearer",
+									"bearer": [
 										{
-											"key": "metric",
-											"value": "page_impressions_unique,page_impressions_paid"
-										},
-										{
-											"key": "access_token",
-											"value": "EAANuNuPz88EBO4alAohPKQv1TuprQJkKNZABUDdlhbGyzpj0mGPBtyIChrOmOhq3dZA9sZAmSkZCQZCpPTZC4ZCDmDqXghmBp4cH83NvlVHFwZA4IOfYG6ljEIAPRTZBNG4gFZCTw2JQiLBNUgpUEdEJxT0SQOiRaZBJCAKvvD9bYuethBrAmYjPecciz10UDtln2PtysTXQFOZCZBbTQDUec0gZDZD"
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
 										}
 									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "GET POST ANALYTICS",
-							"request": {
+								},
 								"method": "GET",
-								"header": [],
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
 								"url": {
-									"raw": "https://graph.facebook.com/113112721370931_428219816591086/insights?metric=post_reactions_like_total,post_reactions_love_total,post_reactions_wow_total,post_engaged_users,page_posts_impressions_unique,page_posts_impressions_paid_unique,page_posts_impressions_organic,post_negative_feedback,post_clicks,post_impressions&access_token=EAANuNuPz88EBO9YQZCj7J21aXHHxpLDDH0Y9nKPlLqQpjuJ9dncsvpJNcQgOspdItVShHmsJ7Udyf6B2eBj2w4qkoCjP8jIATDUwJ2HUTKZCSaM6XEEg52sZAxJhACLULHBuiuvZAO4aD9EQfrTKlqZA6dD4HqvSiZAApcz4bikZBfIl70TrdSZCq0NxXLNiMnxGoqCXGUspYXzTZBLkzWFKS8WgZD&period=lifetime",
-									"protocol": "https",
+									"raw": "{{url}}/api/social-media-page-post-analytics-list?social_media_page_post_id=37&period=lifetime&since=2024-04-01&until=2024-04-30",
 									"host": [
-										"graph",
-										"facebook",
-										"com"
+										"{{url}}"
 									],
 									"path": [
-										"113112721370931_428219816591086",
-										"insights"
+										"api",
+										"social-media-page-post-analytics-list"
 									],
 									"query": [
 										{
-											"key": "metric",
-											"value": "post_reactions_like_total,post_reactions_love_total,post_reactions_wow_total,post_engaged_users,page_posts_impressions_unique,page_posts_impressions_paid_unique,page_posts_impressions_organic,post_negative_feedback,post_clicks,post_impressions"
-										},
-										{
-											"key": "access_token",
-											"value": "EAANuNuPz88EBO9YQZCj7J21aXHHxpLDDH0Y9nKPlLqQpjuJ9dncsvpJNcQgOspdItVShHmsJ7Udyf6B2eBj2w4qkoCjP8jIATDUwJ2HUTKZCSaM6XEEg52sZAxJhACLULHBuiuvZAO4aD9EQfrTKlqZA6dD4HqvSiZAApcz4bikZBfIl70TrdSZCq0NxXLNiMnxGoqCXGUspYXzTZBLkzWFKS8WgZD"
+											"key": "social_media_page_post_id",
+											"value": "37"
 										},
 										{
 											"key": "period",
 											"value": "lifetime"
+										},
+										{
+											"key": "since",
+											"value": "2024-04-01"
+										},
+										{
+											"key": "until",
+											"value": "2024-04-30"
+										},
+										{
+											"key": "metric",
+											"value": null,
+											"disabled": true
 										}
 									]
 								}

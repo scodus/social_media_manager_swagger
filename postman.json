@@ -443,7 +443,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://graph.facebook.com/:post_id/insights?metric=post_reactions_like_total,post_reactions_love_total,post_reactions_wow_total,page_posts_impressions,post_engaged_users&access_token=EAANuNuPz88EBO65DI4GmZB5xdTJS4WGqDPMyZC0HtZBqzceZABZB3ZAGHyY5EIKqhx8VjkbFR52OSkuZAcdZCCrMfAAQYMwZALLLp2rJzrkZBwvGHJ7A3mSY28waIp0M4ZC7jDBUtJV8tMbA1yWf2wIqRwvbZAHourZCaJLRwNV5W6r5ZCDy2YqZBCKLrI6K5nkWCZBt2H8ZD",
+							"raw": "https://graph.facebook.com/:post_id/insights?metric=post_reactions_like_total,post_reactions_love_total,post_reactions_wow_total,page_posts_impressions,post_engaged_users&access_token=EAANuNuPz88EBO65DI4GmZB5xdTJS4WGqDPMyZC0HtZBqzceZABZB3ZAGHyY5EIKqhx8VjkbFR52OSkuZAcdZCCrMfAAQYMwZALLLp2rJzrkZBwvGHJ7A3mSY28waIp0M4ZC7jDBUtJV8tMbA1yWf2wIqRwvbZAHourZCaJLRwNV5W6r5ZCDy2YqZBCKLrI6K5nkWCZBt2H8ZD&since=1713315778&until=1715928478",
 							"protocol": "https",
 							"host": [
 								"graph",
@@ -465,13 +465,11 @@
 								},
 								{
 									"key": "since",
-									"value": "1713315778",
-									"disabled": true
+									"value": "1713315778"
 								},
 								{
 									"key": "until",
-									"value": "1715928478",
-									"disabled": true
+									"value": "1715928478"
 								}
 							],
 							"variable": [
@@ -3632,7 +3630,7 @@
 									"formdata": [
 										{
 											"key": "title",
-											"value": "test1",
+											"value": "Testing post update",
 											"type": "text"
 										},
 										{
@@ -3657,7 +3655,7 @@
 										},
 										{
 											"key": "publish_date",
-											"value": "2024-05-14 15:15:00",
+											"value": "2024-06-14 15:15:00",
 											"description": "datetime||required_if:publish_now,false,0",
 											"type": "text"
 										},
@@ -3684,31 +3682,7 @@
 										},
 										{
 											"key": "social_media_array[1][social_media_page_ids][0]",
-											"value": "1",
-											"type": "text",
-											"disabled": true
-										},
-										{
-											"key": "social_media_array[1][social_media_page_ids][1]",
-											"value": "2",
-											"type": "text",
-											"disabled": true
-										},
-										{
-											"key": "social_media_array[1][]",
-											"value": "1",
-											"type": "text",
-											"disabled": true
-										},
-										{
-											"key": "social_media_array[1][]",
-											"value": "2",
-											"type": "text",
-											"disabled": true
-										},
-										{
-											"key": "social_media_array[2][]",
-											"value": "1",
+											"value": "3",
 											"type": "text",
 											"disabled": true
 										},
@@ -3768,7 +3742,7 @@
 										},
 										{
 											"key": "title",
-											"value": "test1",
+											"value": "Testing post update edit",
 											"type": "text"
 										},
 										{
@@ -3790,7 +3764,7 @@
 										},
 										{
 											"key": "publish_date",
-											"value": "2024-05-14 15:48:00",
+											"value": "2024-06-14 15:48:00",
 											"type": "text"
 										},
 										{
@@ -3809,19 +3783,21 @@
 											"type": "text"
 										},
 										{
-											"key": "attachments[]",
-											"type": "file",
-											"src": "/C:/Users/Scodus/Downloads/logoB.jpg"
+											"key": "social_media_array[1][id]",
+											"value": "2",
+											"type": "text",
+											"disabled": true
 										},
 										{
 											"key": "social_media_array[1][social_media_page_ids][1]",
 											"value": "3",
-											"type": "text"
+											"type": "text",
+											"disabled": true
 										},
 										{
-											"key": "social_media_array[1][id]",
-											"value": "2",
-											"type": "text"
+											"key": "attachments[]",
+											"type": "file",
+											"src": "/C:/Users/Scodus/Downloads/logoB.jpg"
 										}
 									]
 								},
@@ -3838,7 +3814,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "70"
+											"value": "76"
 										}
 									]
 								}
@@ -3895,6 +3871,67 @@
 										{
 											"key": "id",
 											"value": "39"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "post update status social media page wise",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "_method",
+											"value": "PUT",
+											"type": "text"
+										},
+										{
+											"key": "status",
+											"value": "publish",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{url}}/api/post/:id/update-status-social-media-page-wise/:social_media_page_id",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"post",
+										":id",
+										"update-status-social-media-page-wise",
+										":social_media_page_id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "76"
+										},
+										{
+											"key": "social_media_page_id",
+											"value": "2"
 										}
 									]
 								}
@@ -4616,7 +4653,7 @@
 										},
 										{
 											"key": "metric",
-											"value": null,
+											"value": "",
 											"disabled": true
 										}
 									]
@@ -4657,7 +4694,7 @@
 									"formdata": []
 								},
 								"url": {
-									"raw": "{{url}}/api/social-media-page-post-analytics-list?social_media_page_post_id=37&period=lifetime&since=2024-04-01&until=2024-04-30",
+									"raw": "{{url}}/api/social-media-page-post-analytics-list?social_media_page_post_id=37&period=month&since=2024-05-01&until=2024-05-31",
 									"host": [
 										"{{url}}"
 									],
@@ -4672,19 +4709,19 @@
 										},
 										{
 											"key": "period",
-											"value": "lifetime"
+											"value": "month"
 										},
 										{
 											"key": "since",
-											"value": "2024-04-01"
+											"value": "2024-05-01"
 										},
 										{
 											"key": "until",
-											"value": "2024-04-30"
+											"value": "2024-05-31"
 										},
 										{
 											"key": "metric",
-											"value": null,
+											"value": "",
 											"disabled": true
 										}
 									]
